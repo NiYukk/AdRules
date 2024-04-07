@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端AdGuard，主要为Adguard For Android
 ! Description: 该规则提取自自定义合并后的AdGuard规则及HOSTS规则，只包含DNS过滤规则
-! Version: 2024-04-06 08:42:11（北京时间）
-! Total count: 134494
+! Version: 2024-04-07 08:48:32（北京时间）
+! Total count: 134602
 *-stats.jpush.cn^
 *.pop.js^$script
 *ad.durasite.net^
@@ -44,6 +44,7 @@
 .m.zineworm.com^
 .n.2.1.js^
 .n.2.1.l60.js^
+.notifa.info^
 .piccash.net^
 .potopy.ru^
 .sexplaycam.com^
@@ -64,6 +65,7 @@
 @@|beta.publishers.adsterra.com^|
 @@|core.crazyegg.com^|
 @@|ezodn.com^|
+@@|ezodn.vnfinance.vn^
 @@|ftp.bmp.ovh^|
 @@|help-advertisers.adsterra.com^|
 @@|partners.adsterra.com^|
@@ -175,7 +177,6 @@
 @@||ani.gamer.com.tw^$generichide
 @@||ani4u.org^$generichide
 @@||animeforce.org^$generichide
-@@||animego.org^$ste.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.jo,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.ru,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tn,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.ve,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hk,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.it.ao,google.je,google.jo,google.jp,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.ne.jp,google.ng,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tl,google.tm,google.tn,google.to,google.tt,google.us,google.vg,google.vu,google.ws##.cu-container
 @@||annhe.net^$generichide
 @@||anwb.webpower.eu^|
 @@||anyknew.com^$generichide
@@ -613,6 +614,7 @@
 @@||megane.com.pl^$generichide,badfilter
 @@||megaup.net^$generichide
 @@||meizu.coapi.moji.com^
+@@||metabomb.net^$generichide
 @@||mi.cn^
 @@||milfzr.com^$generichide
 @@||minigame.qq.com^
@@ -670,10 +672,11 @@
 @@||oisd.nl^$generichide
 @@||olgame.tw^$generichide
 @@||omegle.com^$jsinject
-@@||omniture.walmart.com^|
-@@||omniture.walmart.com^|3456.com^
-@@||omniture.walmart.com^|op3100.com^
-@@||omniture.walmart.com^|sundermine.com^
+@@||omniture.walmart.com^|.com^
+@@||omniture.walmart.com^|od.xyz^
+@@||omniture.walmart.com^||kolanx.com^
+@@||omniture.walmart.com^||statafun.ru^
+@@||omniture.walmart.com^||vietcombankd.tk^
 @@||omsc.kpn.com^|
 @@||onedrive.live.com^
 @@||onedrive.live.com^$generichide
@@ -988,10 +991,7 @@
 @@||xbeibeix.com^$generichide
 @@||xboxlive.com^$stealth
 @@||xboxservices.com^$stealth
-@@||xfreehd.com^$generichide
-@@||xfreehd.com^$generichide! Checksum: jYCeOqtyZbS2wp0V3ibamw
-@@||xfreehd.com^$generichide16hfg9c.cloudfront.net^
-@@||xfreehd.com^$generichideg-bookmark-card
+@@||xfreehd.com^$generichide,theonion.com,theroot.com,thetakeout.com##.js_sticky-footer:has(> .js_ad-sticky-footer)
 @@||xidian.edu.cn^$generichide
 @@||xiuren.org^$generichide
 @@||xmxing.net^
@@ -1018,38 +1018,47 @@
 ^interfaceAdMonitor^
 ^interfaceAd^
 _vmind.qqvideo.tc.qq.com^
-albvid.com,m4ufree.tv,bludvfilmes.com,torrentrapid.com,cda-hd.cc,ettv.tv,x1337x.se,bayproxy.eu,veu.xxx,tpbbay.eu,piratebays.co,pirateproxy.tf,piratebaymirror.eu,pirate.trade,thepiratebay-proxy.com,wearepirates.click,ukpirate.org,hyperproxy.net,duckingproxy.eu,piratebayproxy.tf,tpbmirror.us,pirateproxy.yt,piratebay.red,pirateproxy.wf,ukp.com^
-alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3dpornpics.pro,3dsex.pics,3dsexcomics.pro,3dsexpictures.net,3xcuties.com,41tube.com,4maturesex.com,4xxxtube.com,6asianporn.com,6bdsmporn.com,6gayvideos.com,6indianxxx.com,6japaneseporn.com,6lesbianporn.com,6maturesex.com,6maturetube.com,6momporn.com,6sextube.com,6xxxvideos.com,8xxxvideos.com,adultvideotop.com,alfabbwporn.com,alfablackporn.com,alfahairyporn.com,alfavoyeurporn.com,allbesthairy.com,allbondagetube.com,allmomsex.com,allretrotube.com,allsexhub.com,alohaxxxsex.com,alsobdsmporn.com,alsoporn.com,alsovintagetube.com,alsoxxxshemales.com,amateurfreetube.com,amateurgirllab.com,amateurpussyass.com,amateursexbox.com,amazingvintagesex.com,animeporn.pro,animepornxxx.com,animesex.pro,animesexclip.com,animesexxxx.com,animexxxsex.com,anudeart.com,anyindianporn.com,anylesbiansex.com,anymilfporn.com,anyxxxanime.com,anyyoungporn.com,asia-xxx.net,asianasssex.com,asianporn.sexy,asianpornfuck.com,asiansex.sexy,asiansexcilps.com,asiansexmov.com,asiansextube.me,asiantube.pro,asiantube.xyz,asianxxxass.com,asianxxxjoy.com,asianxxxmovs.com,asiaxxxmovies.com,azpornvideos.com,bbwsex.pro,bbwsexporn.com,bbwxxxclips.com,bdsmporn.club,bdsmsex.pro,bdsmsexxxx.com,bdsmtube.pro,bdsmxxxmovies.com,bdsmxxxtubes.com,beautymaturegirl.com,beeg-videos.net,beegvideoz.com,bestindiansex.com,bestlesbiantube.com,bestmilfpussy.com,bestsexhub.com,betavintageporn.com,betaxxxbondage.com,bigbbwporn.com,bigindiansex.com,bigjapanesesex.com,bigsexhub.com,bigtitsmix.com,bigtitsslutspics.com,bigvintageporn.com,bigyoungsex.com,bitchmomporn.com,blacksex.me,blackteenpictures.com,blacktube.pro,blackzaur.com,bobmovs.com,bondagepornsex.com,bondagesexfilms.com,bondagesexporn.com,bustyhornypics.com,bustymompics.com,cartoonsexcomix.com,cartoonxxxcomix.com,checklesbianporn.com,chinatownav.com,citrusdesiporn.com,classicpussyporn.com,classymomsex.com,coolasianporn.com,cougarpornpics.net,coxyteens.com,cupidonmilf.com,curvyteenpics.com,daindianporn.com,dapornvideos.com,deasians.com,desipornfilm.com,desipornfilms.com,desipornxxx.com,desisexfilms.com,desixxxporn.com,dirtyindiansex.com,domilfsex.com,doretrosex.com,dosexteens.com,doxxxindians.com,doxxxtube.com,easyteensex.com,ebonypornsex.com,ebonysexporn.com,ebonyteenpictures.com,ebonytube.pro,ebonytube.video,elitehentaiporn.com,eliteindianporn.com,elitelesbianporn.com,enjoyasianporn.com,enterjapaneseporn.com,eroticartlab.com,eroticgirlbox.com,everyamateurteen.com,everyhairypussy.com,exitporn.com,extraindiansex.com,extrajapaneseporn.com,extrateensex.com,exvintagetube.com,family-sex.biz,fantasticxxxteen.com,fantasticyoungporn.com,fapporn.me,fastteenporn.com,fastteensex.com,fastvintageporn.com,fatporn.pro,fatsexfilms.com,favjapaneseporn.com,favmatureporn.com,favteenporn.com,finehub.com,finemomsex.com,firstasianpussy.com,firstasiansex.com,firstvintageporn.com,firstyoungporn.com,foxsexvideos.com,free-xhamster.com,free-xxx-free.com,freegayxxxtube.com,freekinkysex.net,freemomxxxtube.com,freerealvideo.com,freesexpics.pro,freexxxteeny.com,freeyoungvideos.com,freshamateursex.com,freshsexonly.com,fruitshemaletube.com,fuckgayporn.com,fuckhairytube.com,fuckindianporn.com,fuckindianpussy.com,fuckmaturesex.com,fuckmaturevideos.com,fuckretrotube.com,fucksexhub.com,fuckteenclips.com,fuckteenvids.com,fucktube.me,fuckvintageporn.com,fuckyoungsex.com,fullasiantube.com,fullindiansex.com,fulljapanesetube.com,fullporn.pro,fullshemaletube.com,fullteenporn.com,fullxhamster.com,fullyoungsex.com,gaycockfilms.com,gaydickvideos.com,gayfuckass.com,gaymenboy.com,gayporn.pro,gaytube.pro,gaytubefuck.com,gayxxxtv.com,getpornpics.com,gfasianpussy.com,glossytube.com,goindiansex.com,goldanimeporn.com,golddesisex.com,golderotica.com,goldfatporn.com,goldhentaiporn.com,goldindianporn.com,goldmaturesex.com,goldmomsex.com,goldmomtube.com,goldpornclips.com,goldpussytube.com,goldretrosex.com,goldsexvideos.com,goldteenporn.com,goldteensex.com,goldxxxmovies.com,goldxxxsex.com,goldxxxtube.com,goodindianporn.com,gosexvideos.com,goteentube.com,gotrannyporn.com,goyoungporn.com,grandmatureporn.com,grannypornpics.pro,grannytubedot.com,greatindianporn.com,greenpornclips.com,hairyasspussy.com,hairymaturetube.com,hairyporn.me,hairyporn.pro,hairysexporn.com,hairytube.pro,hairyvaginaxxx.com,hairyxxxtubes.com,hamsterfucktube.com,hamstermaturetube.com,hamsterxxxtube.com,hardasiansex.com,hardbondageporn.com,harddesitube.com,hardhairysex.com,hardindiansex.com,hardindianvideos.com,hardretrosex.com,hardsex8.com,hardsextube-teens.com,hardvintagetube.com,hardxxxmoms.com,hardyoungsex.com,hardyousex.com,hd-sex.me,hdfuckporn.com,hdgaycock.com,hdhotasiansex.com,hdsex.date,hdvintagetube.com,hdyoungpussy.com,hentaipornfilms.com,hentaipornmovs.com,hentaisex.pro,hentaisexfilms.com,hentaisexporn.com,hnntube.com,homesex.bid,hometeentube.com,hornybabepics.com,hornyindianporn.com,hornyindiansex.com,hot-mature-movies.com,hotbdsmvideos.com,hotindiantube.com,hotindianxxxsex.com,hotmatureclips.com,hotorientalporn.com,hotxxxbdsmporn.com,hq-jav.com,hqasiananal.com,hqasiangirls.com,hqasianhotties.com,hqhotmoms.com,hqindiantube.com,hqjapanesegirls.com,hqjapanesepussy.com,hqjapanesesex.com,hqjavporn.com,hqmaturehub.com,hqteensexmovies.com,hqxxxfuck.com,hugefatporn.com,hussyasian.com,indianassvideos.com,indianporn.pro,indianpussymovies.com,indiansexbar.com,indiansexpussy.com,indiansexyxxx.com,indiantube.pro,itshemales.com,itsporn.net,ivintageporn.com,jane-safo.ru,japaneseasstube.com,japanesepussyclips.com,japanesesex.me,japanesetube.video,japanesexxx.pro,japanesexxxfuck.com,japanpornmovs.com,japans.me,japansporno.com,japanxxxass.com,japanxxxfilms.com,japanxxxsex.com,javmimi.com,javteens.com,juicyteenie.com,kindindianporn.com,kindteenporn.com,kinkyteensex.com,kissteenporn.com,kittypornvideos.com,largepornclips.com,largeteensex.com,leafindiansex.com,lesbiangirlspussy.com,lesbianpornxxx.com,lesbianpussyfilms.com,lesbianpussygirls.com,lesbianpussytube.com,lesbianpussyxxx.com,lesbiansex.pro,lesbiansexclip.com,lesbianvaginatube.com,lifestyletribune.com,likeasianporn.com,likehairyporn.com,limeteensex.com,lingeriexxxtubes.com,lolanimesex.com,longasiansex.com,longblacksex.com,longmilfsex.com,longyoungporn.com,lookgayporn.com,lookindianporn.com,lookmaturewoman.com,lovemomporn.com,lustfulbabespics.com,madfap.com,madgaytube.com,madgrannytube.com,madhairytube.com,madmomtube.com,madrabbitsex.com,mainxxxtube.com,manpornvideos.com,manyvintageporn.com,mastergaytube.com,mature-ptv.com,matureanalpics.com,matureathome.com,maturefuckclips.com,maturemagic.com,matureporn.pro,matureporner.com,maturepornmovs.com,maturesex.me,maturesexvideos.pro,maturevideosex.com,maturextreme.com,maxasiantube.com,maxretroporn.com,megaasiansex.com,megablackporn.com,megafatporn.com,megahentaitube.com,megaindianporn.com,megaindiantube.com,megavintageporn.com,megayoungporn.com,megayoungsex.com,mikesmatures.com,milfasiantube.com,milfporn.pro,milfpussypic.com,milfsex.me,milftube.pro,milfzporn.com,mixasiansex.com,mixbdsmsex.com,mixblacksex.com,mixgaysex.com,mixhairysex.com,mixindiansex.com,mixlesbiansex.com,mixmaturesex.com,mixsexvideos.com,mixshemalesex.com,mixvintagesex.com,mixvoyeursex.com,mommygranny.com,mommyporn.pro,mommypornvideos.com,mompornfilms.com,mompornpics.net,momsex.pro,momsex.xyz,momsexfilms.com,momsextube.pro,momtube.pro,momvideos.me,momxxxass.com,momxxxclips.com,morebdsmporn.com,moreblackporn.com,mostindiantube.com,mybbwporn.com,myhairyphotos.com,myhotasian.com,myperfectebony.com,mysuperaffiliatementor.com,myteenphotos.com,nakedasiansex.com,nakedboysmovies.com,nakedmensex.com,nakedmomtube.com,nakedolders.com,nakedyoungvideos.com,nakehub.com,nakeporn.com,nakevideos.com,nastyhairypussy.com,naturallesbiansex.com,newbdsmsex.com,newlesbiansex.com,newmomporn.com,newpornclips.com,newpornfilms.com,newpornpic.com,newsexpics.net,newxxxpornvideo.com,newyoungsex.com,nextlesbianporn.com,nextmatureporn.com,nextsexvideos.com,nextteenporn.com,niceblacksex.com,niceretrotube.com,nicesexvideos.com,niceshemaleporn.com,niceteenvideos.com,nicevintageporn.com,nicevintagesex.com,nowteensex.com,nudehairytube.com,nudemilftube.com,nudemilfwomen.com,nudemomxxx.com,nudetuber.com,nudevoyeursex.com,nudexxxmovies.com,nylonbabesporn.com,ohahoh.com,okshemaleporn.com,okteenporn.com,oldgirlsporn.com,onasianporn.com,onindiansex.com,onlesbianporn.com,onlymaturetube.com,onlymomporn.com,onlyteasephoto.com,onlyteenbeauty.com,onxxxtube.com,orientalasianporn.com,originalindianporn.com,originalmaturetube.com,originalretroporn.com,originalteentube.com,otherporntube.com,othershemaleporn.com,paulsmatures.com,paulsporn.com,pepperclips.com,pepperdesitube.com,pepperlesbiantube.com,peppermomporn.com,petiteasiantube.com,petitenakedgirl.com,picgrandma.com,picseroticgirl.com,plainasianporn.com,playretrosex.com,playyoungsex.com,playyoungtube.com,pornaf.com,pornblackporn.com,porncliphub.com,porncomics.me,pornfattube.com,pornhubcom.org,pornjapanesesex.com,pornmovs.pro,pornoplum.com,pornvideotop.com,pornzvideo.com,primehairysex.com,primeindianporn.com,primelesbianporn.com,primematureporn.com,primemomsex.com,primevintagesex.com,privatepornfilms.com,proasiansex.com,progaysex.com,promomporn.com,prosextube.com,proyoungporn.com,psmatureporn.com,publicfuckvideo.com,publicxxxvideo.com,purebbwfuck.com,puremilfporn.com,pussylesbiansex.com,pussymomsex.com,pussysexdig.com,pussyteenfuck.com,qsextube.com,rawasiansex.com,realclassicporn.com,realjapansex.com,realmomsex.com,realporntubes.com,redmatureporn.com,redpornpictures.com,redsexhub.com,redteensex.com,redxxxsex.com,redxxxvideos.com,reteenporn.com,retroclassicporn.com,retroclassicsex.com,retroporn.me,retroporn.pro,retrosexclips.com,retrosexfilms.com,retrosexporn.com,retrotube.xyz,rightxxxtube.com,rockasianporn.com,rocksextube.com,rootdesisex.com,roughbdsmsex.com,rudevintageporn.com,rushteenporn.com,rushteentube.com,rxphoto.com,schoolgirlsexpics.com,searchxxxvideos.com,seegayvideos.com,seeindianporn.com,seematurevideos.com,seeshemaleporn.com,seeteenporn.com,sexasianfuck.com,sexbdsmsex.com,sexcliphub.com,sexclipshd.com,sexfilmstube.com,sexhubmovs.com,sexindianvideos.com,sexjapansex.com,sexlesbianvideos.com,sexmomsex.com,sexprontube.com,sexretrotube.com,sextubeclip.com,sextubehub.com,sexvintagefilms.com,sexxxxfilms.com,sexyclassicporn.com,sexyindianpussy.com,sexylesbiansex.com,sexymomsex.com,sexyorientalporn.com,sexyoungmovies.com,sexypussypic.com,sexytoonporn.com,sexytuber.com,sexyvintageporn.com,shehairy.com,shemaleasstube.com,shemaleclip.com,shemaleporn.pro,shemalepornfilms.com,shemaletube.pro,shemalexxxsex.com,slickyoungporn.com,slimteenporn.com,smoothteentube.com,sohornymature.com,sohornyteen.com,soindianporn.com,sonudepics.com,sooldsluts.com,soteenpics.com,sourceclassicporn.com,spicyvintageporn.com,stepmaturesex.com,sucking.cc,superjapanesesex.com,sweetjapanporn.com,sweetyoungtube.com,teenagedtube.com,teenagesexpics.com,teenagexxxvideos.com,teenfuck.party,teenpornbomb.com,teenpornpics.pro,teenpornvideos.pro,teenpussylab.com,teenpussytv.com,teens-fuck-movies.com,teensexass.com,teensexpics.pro,teensextubez.com,teensxxxvideos.net,teentube.pro,teentubeme.com,teenvaginapics.com,teenxxxmovs.com,teenxxxtube.me,theasiansextube.com,thismaturesex.com,thisxxxsex.com,toonpornpics.com,toonsex.pics,topasianvideos.com,topbbwporn.com,toplesbiantube.com,topmaturepussy.com,topteenpussy.com,totalbbwporn.com,totalclassicsex.com,totalmansex.com,totalxxxtube.com,trannysexfilms.com,trannysexporn.com,trendteenporn.com,trueasiansex.com,trueretroporn.com,trueteenporn.com,trylesbiansex.com,tryyoungporn.com,tube-matures.com,tube8-teens.com,tube8.pro,tubegift.com,tubepornhot.com,tubezporno.com,tvshemalesex.com,ujapanesesex.com,ultrabdsmporn.com,ultraindiansex.com,ultralesbianporn.com,ultrapornvideos.com,ultrateenpussy.com,ultrateensex.com,ultraxxxtube.com,ultrayoungsex.com,upasiansex.com,uphentaiporn.com,upmatureporn.com,upmomtube.com,upvintagesex.com,upvintagetube.com,upxxxlesbians.com,upxxxmatures.com,upxxxporn.com,upxxxretro.com,usematuretube.com,usetrannysex.com,useyoungsex.com,uteentube.com,variousteenporn.com,vintagesex.me,vintagesex.pro,vintagesex.sexy,vintagetube.pro,vintagetube.video,vintagexxxfilms.com,vintagexxxsex.com,voyeurpornsex.com,voyeurporntube.me,voyeursextubes.com,voyeursexvideos.com,voyeurxxxtube.com,voyeurxxxtubes.com,watchretrosex.com,webcamfuckvideo.com,wellasianporn.com,wellmatureporn.com,wellmaturetube.com,wellsextube.com,whoreasianporn.com,whorelesbianporn.com,whoreteenporn.com,whoreteensex.com,whorevintagesex.com,wildasianmovies.com,wildbbwtube.com,wild|successionflimsy.com^
 am26677.com^
 book.qidian.com##A.jumpWrap,DIV.left-game,DIV.right-game,DIV.games-op-wrap,DIV.right-op-wrap mb10,#j-top^Box
 cdn-settings.appsflyersdk.com^
 charlestownwyllie.oaklawnnonantum.com^
+com^
 conversions.appsflyersdk.com^
-cuervotv.me,freetvspor.lol,furher.in,niaomea.me,yu2be.com,lulustream.com,omgflix.com,f1box.me,mlbbox.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,tennisonline.me,veev.to,projectfreetv.cyou,16bit.pl,majorscans.com,aniwatch.nz,hianime.to,theflixertv.to,hdtoday.to,filecrypt.co,d000d.com,6movies.net,anitaku.to,luluvdo.com,mangasusuku.xyz,animetak.top,animtap.shop,uqload.to,d0000d.com,cocolamanhua.com,soccerinhd.com,limpaso.com,mhdsportstv.com,harryaudiobooks.net,do0od.com,mangaokutr.com,coolrea.link,aniwatchtv.to,faselhd-embed.scdns.io,tranimaci.*,online-filmek.ac,uzaymanga.com,yeppuu.com,afroditscans.com,ruyamanga.com,forum.release-apk.com,movies2watch.tv,kkiste.tel,filmesonlinexhd.biz,stbemucode.com,megacloud.tv,aniwatch.to,likemanga.io,freewsad.com,mangareader.to,ds2play.com,french-stream.moe,shinden.pl,online-filmek.me,myflixerz.to,webdramaturkey.com,watchop.live,streamvid.net,embed4u.xyz,akw.cam,vidstream.pro,aniwave.to,2kmovie.cc,dlhd.*,swatchseries.is,foot2live.cc,exego.app,doods.pro,animeunity.to,bolly2tolly.wiki,serielatinobobesponja.com,fakedetail.com,gotaku1.com,exeo.app,temps-mail.com,uqload.io,playertv.net,multicanais.li,mega4upload.com,jewelavid.com,123chill.to,lilymanga.net,hexupload.net,ak.sv,animeunity.cc,9animetv.to,akw.mov,akw-cdn1.link,boophim.org,ssyoutube.com,stakes100.xyz,arb-softwares.com,up-4ever.net,youpit.xyz,tapewithadblock.org,leercapitulo.com,projectlive.info,piraproxy.page,animerigel.com,goku.sx,dooood.com,solarmovies.video,watchtvseries.bz,dopebox.to,jockantv.com,niadd.com,bflix.gg,mgnetu.com,streamlord.com,streamcloud.best,ak4ar.*,seegames.xyz,hinatasoul.com,mundoprogramas.net,animeblkom.net,mawsueaa.com,nsw2u.*,akw.to,xn--mgba7fjn.*,f123movies.com,flexyhit.com,vipleague.*,embed.meomeo.pw,seufilme.net,ak4eg.*,atglinks.com,torrentdosfilmes.se,instamod.net,khsm.io,eurekaddl.mom,bacakomik.co,crackstreams.*,shahiid-anime.net,uqload.co,series4pack.com,iptvxtreamcode.blogspot.com,sportcast.life,henaojara2.com,youtubevanced.com,hesgoals.top,gameshdlive.xyz,worldstreams.watch,worldstreams.click,skincarie.com,financerites.com,watchseries1.video,universanime.co,pahaplayers.click,cimaa4u.*,torrentmac.net,shaheed4u.*,nolive.me,govad.xyz,vidshar.org,vadbam.com,myoplay.club,yt-download.org,animefenix.tv,123ecast.me,gocast123.me,comando.la,gocast2.com,manga1001.su,gogohd.net,viprow.nu,kickassanime.ro,exee.app,fmoviefree.net,exep.app,myoplay.club,betteranime.net,asianplay.*,novelssites.com,letsupload.io,charexempire.com,kat.mn,footyhunter3.xyz,vumoo.to,exe.app,sports-stream.*,theflixer.tv,mrpcgamer.co,crackstreamshd.click,komikindo.id,sockshare1.com,liveply.me,daddylivehd.*,bakotv.com,sflix.se,boost.ink,animehditalia.it,720pstream.me,adslink.pw,vipbox.*,eio.io,cuevana3.*,mangapt.com,wupfile.com,watch-free.tv,uqload.com,turkish123.com,pelisplus.uproxy.page,waploaded.com,streamsport.*,animesup.*,kingdomfiles.com,forex-trnd.com,adpps.com,allosoccer.com,mangarawjp.*,novelroom.net,jkanime.video,bitcomarket.net,ngomik.net,pelismartv.com,yseries.tv,hds-streaming-hd.com,exey.io,hh3dhay.xyz,roms-download.com,freeromsdownload.com,roms-hub.com,animesultra.com,anime-sanka.com,animes.vision,vudeo.net,animeflv.cc,tinymkv.net,milfzr.com,miraculous.to,uploadmaza.com,uptomega.me,9tsu.*,pelispoptv.com,hikarinoakari.com,kissmovies.io,mangaraw.*,starlive.xyz,123moviesfree.*,filmvilag.me,voiranime.stream,putlockers.*,gdplayer.*,1movieshd.com,cool-etv.net,fmovies2.cx,modsfire.com,atomohd.*,ouo.press,yugen.to,movies7.to,buffstreams.*,apkmody.io,mycima.cloud,couchtuner.show,kimoitv.com,gdtot.*,cuevanahd.net,anavidz.com,2embed.*,armagedomfilmes.top,movieskafanda.xyz,streamingcommunity.*,s.to,atomixhq.*,anitube.*,ymovies.to,manhuascan.*,dembed1.comively.com^
-d7x1d6eu.me^
 dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^
-filmeonlinehd.biz,onlinework4all.com,youdbox.com,downloadtwittervideo.com,fetchtube.com,elkooora.com,lodynet.co,mega4up.com,brstej.com,tuktukcinema.com,adslinkfly.online,mvs4u.tv,arabseed.net,speedvideo.net,watchdbzsuper.tv,gsurl.in,yalla-shoot.today,earnload.co,gpmojo.co,halacima.co,mangazuki.online,televisiongratishd.com,videobin.co,seosence.com,todofull.net,zoom-link.com,urlcloud.us,hdfilme.cc,mangacanblog.com,stalktr.net,lelscan-vf.com,app.ignition.fun,9anime.vip,0123movies.com,123movie.cc,123movie.sc,123movies.productions,123movies.domains,123movies2019.com,123movies2019.net,123movies2019.org,123moviesback.com,123moviese.com,123moviesgot.com,123moviesok.org,123movort.xyz^
 gcdsdk.appsflyersdk.com^
 hxsame.hexun.com^
 iadctest.qwapi.com^
+iba.com^
 inapps.appsflyersdk.com^
-kat.*,kickass.*,kickass2.*,kickasstorrents.*,kat2.*,kattracker.*,thekat.*,thekickass.*,kickassz.*,kickasstorrents2.*,topkickass.*,kickassgo.*,kkicka.com^
-lewdcorner.com,jojolandsmanga.com,bestgirlsexy.com,isekaitube.com,hentai-for.net,hentaicity.com,4fans.gay,daemonanime.net,daemon-hentai.com,gayboystube.top,camgirls.casa,boystube.link,recordbate.com,pornheal.com,jpg2.su,overhentai.net,kawai.pics,hentaiteca.net,amateurporn.co,freepdfcomic.com,iusedtobeaboss.com,cpasmieux.homes,str8ongay.com,influencersgonewild.com,wowxxxtube.com,arcjav.com,gaypornhot.com,javprime.net,cdimg.blog.2nt.com,adultporn.com.es,javrip.net,thaihotmodels.com,asiaontop.com,nukedfans.com,erogarga.com,zonavideosx.com,manga18.club,mlookalporno.com,imagetwist.netlify.app,adslink.pw,fapdrop.com,manhwas.men,|qxiabfmmtjhyv.com^
-m^
-n^
+ler.com^
+mine.com^
+nts.lbesecapi.com^
 push.qq.com^
 register.appsflyersdk.com^
-tapelovesads.org,cuervotv.me,freetvspor.lol,furher.in,niaomea.me,yu2be.com,lulustream.com,f1box.me,mlbbox.me,mlbbox.me,mmastreams.me,nbabox.me,nflbox.me,nhlbox.me,tennisonline.me,fmembed.cc,bembed.net,fmoonembed.*,veev.to,projectfreetv.cyou,16bit.pl,aniwatch.nz,hianime.to,theflixertv.to,hdtoday.to,filecrypt.co,d000d.com,fslinks.org,luluvdo.com,mangasusuku.xyz,animetak.top,animtap.shop,uqload.to,d0000d.com,gettapeads.com,cocolamanhua.com,morganoperationface.com,tapeadsenjoyer.com,soccerinhd.com,limpaso.com,mhdsportstv.com,do0od.com,mangaokutr.com,coolrea.link,tranimaci.*,online-filmek.ac,embedv.net,yeppuu.com,afroditscans.com,ruyamanga.com,forum.release-apk.com,movies2watch.tv,kkiste.tel,filmesonlinexhd.biz,stbemucode.com,aniwatch.to,likemanga.io,freewsad.com,mangareader.to,ds2play.com,timberwoodanotia.com,french-stream.moe,shinden.pl,vembed.net,online-filmek.me,myflixerz.to,webdramaturkey.com,vid-guard.com,watchop.live,noblocktape.com,streamvid.net,embed4u.xyz,akw.cam,dlhd.*,swatchseries.is,foot2live.cc,exego.app,doods.pro,animeunity.to,bolly2tolly.wiki,fakedetail.com,antiadtape.com,gotaku1.com,exeo.app,uqload.io,playertv.net,multicanais.li,mega4upload.com,jewelavid.com,hexupload.net,ak.sv,animeunity.cc,9animetv.to,akw.mov,akw-cdn1.link,boophim.org,stakes100.xyz,arb-softwares.com,up-4ever.net,youpit.xyz,tapewithadblock.org,leercapitulo.com,projectlive.info,piraproxy.page,animerigel.com,goku.sx,dooood.com,watchtvseries.bz,jockantv.com,bflix.gg,streamlord.com,streamcloud.best,ak4ar.*,seegames.xyz,hinatasoul.com,mundoprogramas.net,animeblkom.net,mawsueaa.com,akw.to,xn--mgba7fjn.*,flexyhit.com,vipleague.*,seufilme.net,ak4eg.*,atglinks.com,instamod.net,khsm.io,eurekaddl.mom,bacakomik.co,crackstreams.*,shahiid-anime.net,uqload.co,series4pack.com,iptvxtreamcode.blogspot.com,sportcast.life,henaojara2.com,youtubevanced.com,hesgoals.top,gameshdlive.xyz,tvpclive.com,worldstreams.watch,worldstreams.click,skincarie.com,financerites.com,watchseries1.video,universanime.co,pahaplayers.click,cimaa4u.*,megafilmeshdseries.com,torrentmac.net,shaheed4u.*,govad.xyz,vidshar.org,vadbam.com,myoplay.club,animefenix.tv,gmanga.me,123ecast.me,gocast123.me,comando.la,gocast2.com,manga1001.su,gogohd.net,iegybest.in,exee.app,fmoviefree.net,exep.app,betteranime.net,asianplay.*,letsupload.io,charexempire.com,kat.mn,footyhunter3.xyz,vumoo.to,exe.app,sports-stream.*,theflixer.tv,mrpcgamer.co,crackstreamshd.click,sockshare1.com,liveply.me,daddylivehd.*,bakotv.com,sflix.se,boost.ink,animehditalia.it,720pstream.me,adslink.pw,linksly.co,anidl.org,eio.io,mangapt.com,wupfile.com,watch-free.tv,pelisplus.uproxy.page,waploaded.com,streamsport.*,dropgalaxy.com,animesup.*,comandotorrenthd.org,kingdomfiles.com,forex-trnd.com,adpps.com,allosoccer.com,mangarawjp.*,novelroom.net,jkanime.video,bitcomarket.net,ngomik.net,pelismartv.com,yseries.tv,hds-streaming-hd.com,hh3dhay.xyz,roms-download.com,freeromsdownload.com,roms-hub.com,animesultra.com,anime-sanka.com,animes.vision,animeflv.cc,9tsu.*,pelispoptv.com,hikarinoakari.com,mangaraw.*,123moviesfree.*,voiranime.stream,putlockers.*,gdplayer.*,1movieshd.com,cool-etv.net,fmovies2.cx,modsfire.com,atomohd.*,ouo.press,yugen.to,embedstream.me,movies7.to,apkmody.io,couchtuner.show,kimoitv.com,cuevanahd.net,anavidz.com,movieskafanda.xyz,watchmovie.*,dembed1.com,file4go.net,file4go.com,hothit.me,sflix.to,shrink.*,divicast.com,manhwa68.com,filma24.*,mp3yeni.org,filmeseries.top,thetodaypost.com,hentaizm.fun,embedflix.net,moviesjoy.*,animespank.com,hhdmovies.*,upvid.*,mangas-raw.com,bbb.fm,watchseries.*,superflix.*,kick4ss.com,jpscan-vf.com,rawkuma.com,2kmovie.cc,losmovies.*,123movieshub.*,intereseducation.com,vizer.re,123movies-official.site,querofilmehd.*,up-load.one,aniworld.to,bclikeqt.com,uploadbank.com,190.115.18.20,verflix.net,pikafile.com,superfilmes.tv,gofilmes.me,warezcdn.com,onlinevideoconverter.com,shadowrangers.live,myflixer.*,serienstream.to,s.to,goyabu.com,190.115.18.20,tlin.me,databasegdriveplayer.*,mycima.wiki,watchomovies.*,stream-complet.biz,jujutsukaisenonline.net,hh3dhay.com,manhuascan.*,animesonehd.xyz,cinemakottaga.*,mangahere.today,manganatos.com,animepahe.*,moviesverse.*,tuktukcinema.co,playlist-youtu.be,polstream.live,tamilyogi.best,slink.bid,shavetape.*,imgbase.ru,klubsports.xyz,world4ufree1.*,fbox.to,vhorizads.com,webhostingpost.com,simsdom.com,send.cm,sampledrive.in,telefullenvivo.com,futbolfullenvivo.com,streamtapeadblock.*,speedostream.com,yomovies.*,gum-gum-stream.com,9xmovie.click,acervofilmes.com,airportseirosafar.com,assistirseriados.net,cmp3.ru,filmovi.ws,gentlewasher.com,mobilephonedir.com,mobiro.org,mp3-gratis.it,mp3-vk.ru,peliculontube.net,putlocker68.com,rojadirectahd.online,serijefilmovi.com,stickerdeals.net,thingstomen.com,u123movies.com,vbox7-mp3.info,vkmp3s.ru,zeidgh.com,fanproj.net,getmega.net,mobdropro.com,askim-bg.com,comofuncionaque.com,hdzone.org,hwnaturkya.com,i123movies.net,ibrasoftware.com,mega-mkv.com,nosong.ru,onlinesubtitrat.com,vkmp3.*,needrombd.com,e123movies.com,vudeo.io,gogoplay4.com,4anime.biz,crystal-launcher.net,crystal-launcher.pl,streamz.ws,animefreak.*,streaming-french.com,watchserieshd.*,lrepacks.net,animeonline.ninja,ssoap2day.*,bmovies.*,techgeek.digital,hurawatch.*,jujutsukaisen-manga.online,pelismarthd.com,hds-streaming-vf.com,cima-club.*,repelis.in,yesmovies.*,a123movies.net,adblockstrtape.link,adblockstrtech.link,yodbox.com,vidoo.org,gomoviefree.*,bdnewszh.com,mangceh.cc,extreme-down.plus,mcubd.host,noob4cast.com,cricplay2.xyz,nba-streams.online,mangasco.com,masengwa.com,adblockstreamtape.*,baliphim.com,khophimhd.net,lucaphim.com,hurawatch.at,tainio-mania.online,vipboxtv.*,upbam.org,myviid.com,vidbam.org,unblockedsites.net,serieskao.*,uploadflix.org,gdriveplayer.to,lookmoviess.com,beinmatch.*,imgdawgknuttz.com,tv.hd44.net,animeshow.tv,123-movies.*,dramacool.*,vanime.co,kiss-anime.*,s4p2.shingekinokyojin.tv,wat32.tv,eplayvid.*,tvply.me,atomixhq.*,bflix.to,seeeed.xyz,123movie.*,mycima.ink,nocensor.*,shahed4u.*,series9.me,mp4upload.com,fmovies.*,egyshare.cc,megafilmeshd50.com,uploadrar.com,freemoviesfull.com,mkvhub.*,stape.fun,dopebox.to,xsanime.com,komikindo.id,filmovi.co,extralinks.*,deportealdia.live,noweconomy.live,hindilinks4u.*,animeunity.tv,daddylive.*,katflys.com,turkish123.com,watchonlinemovies50.com.pk,viprow.*,strikeout.*,dl-protect.info,zone-telechargement.work,123moviesc.*,cuevana3.*,adshort.*,2embed.*,yifysubtitles.vip,messitv.net,oploverz.*,anime4up.*,vipbox.*,govid.cyou,watchseries.*,romshub.com,cima4u.*,watchdoctorwhoonline.com,allinonedownloadzz.site,gdriveplayer.us,witanime.com,illink.net,123ssgm.cc,skidrowcodex.net,melodelaa.link,vidembed.*,birdurls.com,gowatchseries.*,1movies.life,soccermotor.com,animesanka.*,bemovies.to,upfiles.io,cpm10.org,gogomovies.to,pahe.ph,topflix.*,vudeo.net,extramovies.*,netcine.*,asianload.cc,mylink.vc,streamani.net,filmyzilla.*,rancah.com,toonanime.tv,futebolplayhd.com,kingurls.com,streamzz.*,pics4you.net,noweconomy.live,uptomega.me,vcomic.net,maxitorrent.com,movieshub.top,streamingcommunity.*,pandrama.com,yt-download.org,m0vs4u.org,movs4u.*,vedsharr.com,vedpom.com,animeworld.*,two.re,strcloud.*,lugatv.com,streamz.*,gomo.to,dailyuploads.net,dartsstream.me,golfstreams.me,motogpstream.me,ufcstream.me,boxingstreams.me,socceronline.me,rugbystreams.me,tennisstreams.me,nbastream.nu,mlbstream.me,game3rb.com,naijaray.com.ng,multifaucet.org,pctmix1.com,vedbom.com,arabseed.*,exey.io,parisanime.com,otakufr.co,5movies.cloud,buffstreams.*,upbbom.com,url4cut.xyz,r2sa.net,vidbm.com,movies2.com.pk,9putlocker.*,egydead.com,shrlink.top,mcrypto.club,downloadhub.kim,1-2-3movies.com,vidbeem.com,eririo.club,upload-4ever.com,dlpsgame.*,allkindonline.com,123free.net,warefree01.com,fileoops.com,vidbem.com,vidshar.net,pewgame.com,uploadmaza.com,filmypur.info,gomovies.*,filmy4wap1.*,movies4me.*,gofilms4u.pro,vipstand.se,gogoanime.*,cloudvideotv.stream,1080phds.com,123-watch.com,123moviesco.site,1kmovies.org,afilmyhouse.blogspot.com,antsmovies.com,europix.us,maamusiq.com,movi.pk,thesouthflix.com,tnmoviez.net,akmm.linksme.xyz,moviesmon.cyou,linkshere.work,123moviesfx.live,up-load.io,filmlinks4u.pro,123movies.net,uploadev.org,nbaup.live,goalup.live,link.ltc24.com,moviedekho.in,vexfile.com,sports24.*,themovie123.org,nsw2u.*,lookmovie.*,dtefrc.online,batmanstream.*,manga.ae,pirlotvonlinehd.com,moviespapa.cloud,hinurls.cc,veopartidos.net,trans.firm.in,clipwatching.*,otomi-games.com,gdirect.site,linksmore.site,world4ufree.*,langitfilm.*,mydownloadtube.*,yifyhdtorrent.org,speedvideo.net,moviesub.is,animersindo.net,brbushare.xyz,1kmovies.*,7movies.com.pk,manhwa18.net,usagoals.*,123movieslinks.live,pelismart.com,ikindlebooks.com,zplayer.live,fffmovies.wtf,voody.online,gulf-up.com,ustream.to,drosbraift.com,thefitnesshints.com,streamsport.icu,hinlinks.club,uqload.com,gplinks.co,cloudvideo.tv,gogo-play.net,animeflvnet.com,animeflv.la,watchasian.cc,extreme-down.tv,anitube.*,mgnetu.com,vidnext.net,voe.sx,vidsaver.net,gnula.nu,repack-games.com,apkshrt.com,linkshorts.me,fusionmovies.to,lefturl.com,gamepciso.com,100count.net,playerbiasa.xyz,akwams.*,racaty.net,videobin.co,bdupload.asia,indishare.org,gdtot.*,livestreaming24.eu,ilinks.in,egybest.*,filmvilag.me,revivelink.com,owllink.net,akwam.*,multicanais.com,upstream.to,streamtape.*,easyload.io,clipconverter.cc,readm.org,notube.net,gogo-stream.com,animesonline.cz,doctor-groups.com,kissanime.nz,ouo.io,ustreamix.to,ffmovies.co,zone-annuaire.best,repackov.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,youdbox.com,putlocker.style,watchmovies7.com.pk,manhwa18.com,swatchseries.to,mangatx.com,ouofly.com,playtube.ws,iir.ai,bolssc.com,linkjust1.com,fx4vip.com,mangazuki.online,exee.io,anot^
 tieba.baidu.com##DIV.panel_bottom,LI.tl_shadow tl_shadow_new ^
 vkcdnservice.appspot.com^
 wjyhao.com^
 www.tyzrcs.com###__^HFa,DIV.box top_box
 wxsnsdy.tc.qq.com^
 wxsnsdy.video.qq.com^
-xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3dpornpics.pro,3dsex.pics,3dsexcomics.pro,3dsexpictures.net,3xcuties.com,41tube.com,4maturesex.com,4xxxtube.com,6asianporn.com,6bdsmporn.com,6gayvideos.com,6indianxxx.com,6japaneseporn.com,6lesbianporn.com,6maturesex.com,6maturetube.com,6momporn.com,6sextube.com,6xxxvideos.com,8xxxvideos.com,adultvideotop.com,alfabbwporn.com,alfablackporn.com,alfahairyporn.com,alfavoyeurporn.com,allbesthairy.com,allbondagetube.com,allmomsex.com,allretrotube.com,allsexhub.com,alohaxxxsex.com,alsobdsmporn.com,alsoporn.com,alsovintagetube.com,alsoxxxshemales.com,amateurfreetube.com,amateurgirllab.com,amateurpussyass.com,amateursexbox.com,amazingvintagesex.com,animeporn.pro,animepornxxx.com,animesex.pro,animesexclip.com,animesexxxx.com,animexxxsex.com,anudeart.com,anyindianporn.com,anylesbiansex.com,anymilfporn.com,anyxxxanime.com,anyyoungporn.com,asia-xxx.net,asianasssex.com,asianporn.sexy,asianpornfuck.com,asiansex.sexy,asiansexcilps.com,asiansexmov.com,asiansextube.me,asiantube.pro,asiantube.xyz,asianxxxass.com,asianxxxjoy.com,asianxxxmovs.com,asiaxxxmovies.com,azpornvideos.com,bbwsex.pro,bbwsexporn.com,bbwxxxclips.com,bdsmporn.club,bdsmsex.pro,bdsmsexxxx.com,bdsmtube.pro,bdsmxxxmovies.com,bdsmxxxtubes.com,beautymaturegirl.com,beeg-videos.net,beegvideoz.com,bestindiansex.com,bestlesbiantube.com,bestmilfpussy.com,bestsexhub.com,betavintageporn.com,betaxxxbondage.com,bigbbwporn.com,bigindiansex.com,bigjapanesesex.com,bigsexhub.com,bigtitsmix.com,bigtitsslutspics.com,bigvintageporn.com,bigyoungsex.com,bitchmomporn.com,blacksex.me,blackteenpictures.com,blacktube.pro,blackzaur.com,bobmovs.com,bondagepornsex.com,bondagesexfilms.com,bondagesexporn.com,bustyhornypics.com,bustymompics.com,cartoonsexcomix.com,cartoonxxxcomix.com,checklesbianporn.com,chinatownav.com,citrusdesiporn.com,classicpussyporn.com,classymomsex.com,coolasianporn.com,cougarpornpics.net,coxyteens.com,cupidonmilf.com,curvyteenpics.com,daindianporn.com,dapornvideos.com,deasians.com,desipornfilm.com,desipornfilms.com,desipornxxx.com,desisexfilms.com,desixxxporn.com,dirtyindiansex.com,domilfsex.com,doretrosex.com,dosexteens.com,doxxxindians.com,doxxxtube.com,easyteensex.com,ebonypornsex.com,ebonysexporn.com,ebonyteenpictures.com,ebonytube.pro,ebonytube.video,elitehentaiporn.com,eliteindianporn.com,elitelesbianporn.com,enjoyasianporn.com,enterjapaneseporn.com,eroticartlab.com,eroticgirlbox.com,everyamateurteen.com,everyhairypussy.com,exitporn.com,extraindiansex.com,extrajapaneseporn.com,extrateensex.com,exvintagetube.com,family-sex.biz,fantasticxxxteen.com,fantasticyoungporn.com,fapporn.me,fastteenporn.com,fastteensex.com,fastvintageporn.com,fatporn.pro,fatsexfilms.com,favjapaneseporn.com,favmatureporn.com,favteenporn.com,finehub.com,finemomsex.com,firstasianpussy.com,firstasiansex.com,firstvintageporn.com,firstyoungporn.com,foxsexvideos.com,free-xhamster.com,free-xxx-free.com,freegayxxxtube.com,freekinkysex.net,freemomxxxtube.com,freerealvideo.com,freesexpics.pro,freexxxteeny.com,freeyoungvideos.com,freshamateursex.com,freshsexonly.com,fruitshemaletube.com,fuckgayporn.com,fuckhairytube.com,fuckindianporn.com,fuckindianpussy.com,fuckmaturesex.com,fuckmaturevideos.com,fuckretrotube.com,fucksexhub.com,fuckteenclips.com,fuckteenvids.com,fucktube.me,fuckvintageporn.com,fuckyoungsex.com,fullasiantube.com,fullindiansex.com,fulljapanesetube.com,fullporn.pro,fullshemaletube.com,fullteenporn.com,fullxhamster.com,fullyoungsex.com,gaycockfilms.com,gaydickvideos.com,gayfuckass.com,gaymenboy.com,gayporn.pro,gaytube.pro,gaytubefuck.com,gayxxxtv.com,getpornpics.com,gfasianpussy.com,glossytube.com,goindiansex.com,goldanimeporn.com,golddesisex.com,golderotica.com,goldfatporn.com,goldhentaiporn.com,goldindianporn.com,goldmaturesex.com,goldmomsex.com,goldmomtube.com,goldpornclips.com,goldpussytube.com,goldretrosex.com,goldsexvideos.com,goldteenporn.com,goldteensex.com,goldxxxmovies.com,goldxxxsex.com,goldxxxtube.com,goodindianporn.com,gosexvideos.com,goteentube.com,gotrannyporn.com,goyoungporn.com,grandmatureporn.com,grannypornpics.pro,grannytubedot.com,greatindianporn.com,greenpornclips.com,hairyasspussy.com,hairymaturetube.com,hairyporn.me,hairyporn.pro,hairysexporn.com,hairytube.pro,hairyvaginaxxx.com,hairyxxxtubes.com,hamsterfucktube.com,hamstermaturetube.com,hamsterxxxtube.com,hardasiansex.com,hardbondageporn.com,harddesitube.com,hardhairysex.com,hardindiansex.com,hardindianvideos.com,hardretrosex.com,hardsex8.com,hardsextube-teens.com,hardvintagetube.com,hardxxxmoms.com,hardyoungsex.com,hardyousex.com,hd-sex.me,hdfuckporn.com,hdgaycock.com,hdhotasiansex.com,hdsex.date,hdvintagetube.com,hdyoungpussy.com,hentaipornfilms.com,hentaipornmovs.com,hentaisex.pro,hentaisexfilms.com,hentaisexporn.com,hnntube.com,homesex.bid,hometeentube.com,hornybabepics.com,hornyindianporn.com,hornyindiansex.com,hot-mature-movies.com,hotbdsmvideos.com,hotindiantube.com,hotindianxxxsex.com,hotmatureclips.com,hotorientalporn.com,hotxxxbdsmporn.com,hq-jav.com,hqasiananal.com,hqasiangirls.com,hqasianhotties.com,hqhotmoms.com,hqindiantube.com,hqjapanesegirls.com,hqjapanesepussy.com,hqjapanesesex.com,hqjavporn.com,hqmaturehub.com,hqteensexmovies.com,hqxxxfuck.com,hugefatporn.com,hussyasian.com,indianassvideos.com,indianporn.pro,indianpussymovies.com,indiansexbar.com,indiansexpussy.com,indiansexyxxx.com,indiantube.pro,itshemales.com,itsporn.net,ivintageporn.com,jane-safo.ru,japaneseasstube.com,japanesepussyclips.com,japanesesex.me,japanesetube.video,japanesexxx.pro,japanesexxxfuck.com,japanpornmovs.com,japans.me,japansporno.com,japanxxxass.com,japanxxxfilms.com,japanxxxsex.com,javmimi.com,javteens.com,juicyteenie.com,kindindianporn.com,kindteenporn.com,kinkyteensex.com,kissteenporn.com,kittypornvideos.com,largepornclips.com,largeteensex.com,leafindiansex.com,lesbiangirlspussy.com,lesbianpornxxx.com,lesbianpussyfilms.com,lesbianpussygirls.com,lesbianpussytube.com,lesbianpussyxxx.com,lesbiansex.pro,lesbiansexclip.com,lesbianvaginatube.com,lifestyletribune.com,likeasianporn.com,likehairyporn.com,limeteensex.com,lingeriexxxtubes.com,lolanimesex.com,longasiansex.com,longblacksex.com,longmilfsex.com,longyoungporn.com,lookgayporn.com,lookindianporn.com,lookmaturewoman.com,lovemomporn.com,lustfulbabespics.com,madfap.com,madgaytube.com,madgrannytube.com,madhairytube.com,madmomtube.com,madrabbitsex.com,mainxxxtube.com,manpornvideos.com,manyvintageporn.com,mastergaytube.com,mature-ptv.com,matureanalpics.com,matureathome.com,maturefuckclips.com,maturemagic.com,matureporn.pro,matureporner.com,maturepornmovs.com,maturesex.me,maturesexvideos.pro,maturevideosex.com,maturextreme.com,maxasiantube.com,maxretroporn.com,megaasiansex.com,megablackporn.com,megafatporn.com,megahentaitube.com,megaindianporn.com,megaindiantube.com,megavintageporn.com,megayoungporn.com,megayoungsex.com,mikesmatures.com,milfasiantube.com,milfporn.pro,milfpussypic.com,milfsex.me,milftube.pro,milfzporn.com,mixasiansex.com,mixbdsmsex.com,mixblacksex.com,mixgaysex.com,mixhairysex.com,mixindiansex.com,mixlesbiansex.com,mixmaturesex.com,mixsexvideos.com,mixshemalesex.com,mixvintagesex.com,mixvoyeursex.com,mommygranny.com,mommyporn.pro,mommypornvideos.com,mompornfilms.com,mompornpics.net,momsex.pro,momsex.xyz,momsexfilms.com,momsextube.pro,momtube.pro,momvideos.me,momxxxass.com,momxxxclips.com,morebdsmporn.com,moreblackporn.com,mostindiantube.com,mybbwporn.com,myhairyphotos.com,myhotasian.com,myperfectebony.com,mysuperaffiliatementor.com,myteenphotos.com,nakedasiansex.com,nakedboysmovies.com,nakedmensex.com,nakedmomtube.com,nakedolders.com,nakedyoungvideos.com,nakehub.com,nakeporn.com,nakevideos.com,nastyhairypussy.com,naturallesbiansex.com,newbdsmsex.com,newlesbiansex.com,newmomporn.com,newpornclips.com,newpornfilms.com,newpornpic.com,newsexpics.net,newxxxpornvideo.com,newyoungsex.com,nextlesbianporn.com,nextmatureporn.com,nextsexvideos.com,nextteenporn.com,niceblacksex.com,niceretrotube.com,nicesexvideos.com,niceshemaleporn.com,niceteenvideos.com,nicevintageporn.com,nicevintagesex.com,nowteensex.com,nudehairytube.com,nudemilftube.com,nudemilfwomen.com,nudemomxxx.com,nudetuber.com,nudevoyeursex.com,nudexxxmovies.com,nylonbabesporn.com,ohahoh.com,okshemaleporn.com,okteenporn.com,oldgirlsporn.com,onasianporn.com,onindiansex.com,onlesbianporn.com,onlymaturetube.com,onlymomporn.com,onlyteasephoto.com,onlyteenbeauty.com,onxxxtube.com,orientalasianporn.com,originalindianporn.com,originalmaturetube.com,originalretroporn.com,originalteentube.com,otherporntube.com,othershemaleporn.com,paulsmatures.com,paulsporn.com,pepperclips.com,pepperdesitube.com,pepperlesbiantube.com,peppermomporn.com,petiteasiantube.com,petitenakedgirl.com,picgrandma.com,picseroticgirl.com,plainasianporn.com,playretrosex.com,playyoungsex.com,playyoungtube.com,pornaf.com,pornblackporn.com,porncliphub.com,porncomics.me,pornfattube.com,pornhubcom.org,pornjapanesesex.com,pornmovs.pro,pornoplum.com,pornvideotop.com,pornzvideo.com,primehairysex.com,primeindianporn.com,primelesbianporn.com,primematureporn.com,primemomsex.com,primevintagesex.com,privatepornfilms.com,proasiansex.com,progaysex.com,promomporn.com,prosextube.com,proyoungporn.com,psmatureporn.com,publicfuckvideo.com,publicxxxvideo.com,purebbwfuck.com,puremilfporn.com,pussylesbiansex.com,pussymomsex.com,pussysexdig.com,pussyteenfuck.com,qsextube.com,rawasiansex.com,realclassicporn.com,realjapansex.com,realmomsex.com,realporntubes.com,redmatureporn.com,redpornpictures.com,redsexhub.com,redteensex.com,redxxxsex.com,redxxxvideos.com,reteenporn.com,retroclassicporn.com,retroclassicsex.com,retroporn.me,retroporn.pro,retrosexclips.com,retrosexfilms.com,retrosexporn.com,retrotube.xyz,rightxxxtube.com,rockasianporn.com,rocksextube.com,rootdesisex.com,roughbdsmsex.com,rudevintageporn.com,rushteenporn.com,rushteentube.com,rxphoto.com,schoolgirlsexpics.com,searchxxxvideos.com,seegayvideos.com,seeindianporn.com,seematurevideos.com,seeshemaleporn.com,seeteenporn.com,sexasianfuck.com,sexbdsmsex.com,sexcliphub.com,sexclipshd.com,sexfilmstube.com,sexhubmovs.com,sexindianvideos.com,sexjapansex.com,sexlesbianvideos.com,sexmomsex.com,sexprontube.com,sexretrotube.com,sextubeclip.com,sextubehub.com,sexvintagefilms.com,sexxxxfilms.com,sexyclassicporn.com,sexyindianpussy.com,sexylesbiansex.com,sexymomsex.com,sexyorientalporn.com,sexyoungmovies.com,sexypussypic.com,sexytoonporn.com,sexytuber.com,sexyvintageporn.com,shehairy.com,shemaleasstube.com,shemaleclip.com,shemaleporn.pro,shemalepornfilms.com,shemaletube.pro,shemalexxxsex.com,slickyoungporn.com,slimteenporn.com,smoothteentube.com,sohornymature.com,sohornyteen.com,soindianporn.com,sonudepics.com,sooldsluts.com,soteenpics.com,sourceclassicporn.com,spicyvintageporn.com,stepmaturesex.com,sucking.cc,superjapanesesex.com,sweetjapanporn.com,sweetyoungtube.com,teenagedtube.com,teenagesexpics.com,teenagexxxvideos.com,teenfuck.party,teenpornbomb.ngneurotic.com^
-|1eb.me^
+|.com^
+|.notifa.info^
+|^
 |c.blue.*.com^|
+|dia.ad-lps.net^
+|hfarefeudalfaster.com^
+|ifyeldd.top^
+|lsindustrateb.info^
+|om^
+|ong.com^
+|oriondigital.ru^
+|oxeus.com^
+|pgz.icu^
+|rt0n.news^
+|tats.prebytes.com^
+|tch10.com^
+|tupoobs.com^
 ||*-analytics*.huami.com^
 ||*.mmstat.com^
 ||*.p2p.huya.com^
@@ -1574,6 +1583,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||1437953666.rsc.cdn77.org^
 ||143nchrtl3.com^
 ||144.dragonparking.com^
+||1453683541.rsc.cdn77.org^
 ||1472566097.rsc.cdn77.org^
 ||147ad.com^
 ||147ad.com^$third-party
@@ -1670,6 +1680,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||181ue.com^
 ||1821z.website^
 ||184c4i95p.de^
+||1858742167.rsc.cdn77.org^
 ||186078.com^
 ||187388.com^
 ||18788fdb24.com^
@@ -1896,6 +1907,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||1xroom.com^
 ||1xsultan.com^
 ||1ytao.com^
+||1|oriondigital.ru^
 ||2.1010pic.com^
 ||2.92caijing.com^
 ||2.afs.googleadservices.com^
@@ -2911,6 +2923,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||550sky.com^
 ||5551556.com^
 ||55555555555.xyz^
+||555bbb333bbb.com^
 ||555lotte.com^
 ||555p555p.com^
 ||555shopify.com^
@@ -7396,6 +7409,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ad.ccement.com^
 ||ad.cctv.com^
 ||ad.cdnjm.cn^
+||ad.cdnjm|traffic.wdc.center^
 ||ad.centrum.cz^
 ||ad.cgi.cz^
 ||ad.chieuhoa.com^
@@ -7660,6 +7674,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ad.style^$third-party
 ||ad.sunflower.vn^
 ||ad.szhsx.net^
+||ad.t.net^
 ||ad.takasu.co.jp^
 ||ad.tatatimes.com^
 ||ad.technews-iran.com^
@@ -10878,6 +10893,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||adtouch-qa.adbrix.io^
 ||adtouch.adbrix.io^
 ||adtpix.com^
+||adtr.cn^
 ||adtr.io^
 ||adtrace.io^
 ||adtrace.ir^
@@ -11284,6 +11300,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||advtrkone.com^
 ||advwomennews.ru^
 ||advzone.ioe.vn^
+||adw.heraldm.com^
 ||adw.sapo.pt^
 ||adwalte.info^
 ||adware.mavq.net^
@@ -11475,6 +11492,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||adz2you.net^
 ||adzbaba.com^
 ||adzbazar.com^
+||adzdgr-wadd2-f1d.com^
 ||adzep.com.br^
 ||adzerk.net^
 ||adzerk.net^$popup
@@ -18049,6 +18067,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||atarget.firstrepublic.com^
 ||atarget.harley-davidson.com^
 ||atas.io^
+||atats.prebytes.com^
 ||atatus.com^
 ||atavusatumble.uno^
 ||atax.gamespy.com^
@@ -18136,6 +18155,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||atlaqs.com^
 ||atlas-upd.com^
 ||atlas.leadboltads.net^
+||atlas1.krone.acom^
+||atlas1.krone.aksjowrote.com^
 ||atlas1.krone.at^
 ||atlassolutions.com^
 ||atlggfy.cn^
@@ -18274,6 +18295,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||atype.jp^
 ||atyphy.cyou^
 ||atzekromchan.com^
+||atzhcjv.xyz^
 ||atzzrq.tbs.co.jp^
 ||au-go.experian.com^
 ||au-insight.ants.vn^
@@ -18299,6 +18321,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||aucred.com^
 ||auction-load.unityads.unity3d.com^
 ||auction-release.mlpapi.com^
+||auction-release.mlpapi.ct.net^
 ||auction.unityads.unity3d.com^
 ||auctionads.com^
 ||auctionads.net^
@@ -19400,6 +19423,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ba83df6e74.com^
 ||baannre.com^
 ||baaomenaltho.com^
+||baarlingpronouninsight.com^
 ||babanetwork.adk2x.com^
 ||babator.com^
 ||babbnrs.com^
@@ -19683,6 +19707,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||balor-ghn.com^
 ||balphyra.com^
 ||balspaulite.com^
+||balsphfarefeudalfaster.com^
 ||baltchd.net^
 ||balvalur.com^
 ||bam-6.nr-data.net^
@@ -20162,7 +20187,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||baysexthy.com^
 ||bayshorline.com^
 ||bayshorline.com^$document
-||bayshorline.com^$popup
 ||baytfede.xyz^
 ||bayunblocked.eu^
 ||baywednesday.com^
@@ -20465,6 +20489,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||bdj5.terrassesmontecarlosbm.com^
 ||bdjdhouhoipj.com^
 ||bdjdpyrt.xyz^
+||bdjfea.cn^
 ||bdjiaoben.wmxa.cn^
 ||bdjj.bzr99.com^
 ||bdjj.makepolo.net^
@@ -21121,6 +21146,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||bestsearch.net^
 ||bestsecurepractice.com^
 ||bestsrv.de^
+||bestsurferprotector.com^$popup,third-party
 ||besttracksolution.com^
 ||bestunfollow.com^
 ||bestwinterclck.name^
@@ -21723,6 +21749,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||bird-getabid.net^
 ||birdeatsbug.com^
 ||birdeyedigenea.com^
+||birdeyedigenea.d.website^
 ||birdmedia.com^
 ||birdmedia.com^$third-party
 ||birdnavy.com^
@@ -23477,6 +23504,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||brort.stsdk.vivo.com.cn^
 ||brorzpj.cn^
 ||brotherleadcape.com^
+||brotherlt^
 ||brothersbucket.com^
 ||brothersincash.com^
 ||brotherslocket.com^
@@ -25021,6 +25049,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||camsoda1.com^
 ||camstime.life^
 ||camusepipers.space^
+||camvideos.tv^$subdocument
 ||camzap.com^
 ||can-get-some.in^
 ||can-get-some.net^
@@ -26944,6 +26973,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||charterporous.com^
 ||chartersettlingtense.com^
 ||charterunwelcomealibi.com^
+||chartoteborgco.se^
 ||chasmsnaa.com^
 ||chassirsaud.com^
 ||chastehandkerchiefclassified.com^
@@ -28075,8 +28105,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||clickeye.cn^
 ||clickferret.com^
 ||clickfilter.co^
-||clickfilter.co^$popup
-||clickfilter.co^$third-party
 ||clickforensics.com^
 ||clickfuse.com^
 ||clickfuse.com^$third-party
@@ -29430,6 +29458,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||coloursstandard.com^
 ||colovepuquina.guru^
 ||coltagainst.pro^
+||coltupoobs.com^
 ||colum-rvb.com^
 ||columbustech.tcsg.edu^
 ||columngenuinedeploy.com^
@@ -31980,8 +32009,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ctobsnssdk.com^
 ||ctoosqtuxgaq.com^
 ||ctosrd.com^
-||ctosrd.com^$document
-||ctosrd.com^$popup
 ||ctp1.bforbank.com^
 ||ctpdegbeqlejw.com^
 ||ctquh0q.xyz^
@@ -32763,6 +32790,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||d142i1hxvwe38g.cloudfront.net^
 ||d145ghnzqbsasr.cloudfront.net^
 ||d14821r0t3377v.cloudfront.net^
+||d14l1tkufmtp1z.cloudfront.net^
 ||d14pdm1b7fi5kh.cloudfront.net^
 ||d14zhsq5aop7ap.cloudfront.net^
 ||d154nw1c88j0q6.cloudfront.net^
@@ -33204,6 +33232,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||d2edfzx4ay42og.cloudfront.net^
 ||d2ei3pn5qbemvt.cloudfront.net^
 ||d2ele6m9umnaue.cloudfront.net^
+||d2ele6m9umnaue.cloudfront.net^|traffic.wdc.center^
 ||d2elslrg1qbcem.cloudfront.net^
 ||d2enprlhqqv4jf.cloudfront.net^
 ||d2er1uyk6qcknh.cloudfront.net^
@@ -33969,7 +33998,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||dalld.xyz^
 ||dallthroughthe.info^
 ||dallworldnews.ru^
-||dalmfn.xnet.com^
 ||dalmfn.xyz^
 ||daluxmurwthhk.com^
 ||dalyai.com^
@@ -34981,6 +35009,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||dcsxv.com^
 ||dct.mango-office.ru^
 ||dcuonsugikrma.com^
+||dcv4p460uqa46.cloudfront.net^
 ||dcvbnzss.xyz^
 ||dcvefz.xyz^
 ||dcwacl.com^
@@ -37716,6 +37745,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||doit.kccqgj.cn^
 ||doithecao.com.vn^
 ||doithecaothanhtienmat.com^
+||doithecaothanhtienmat.com^|
+||doithecaothanhtienmat|traffic.wdc.center^
 ||doithuong247.club^
 ||doitiengia.com^
 ||dojomojo.com^
@@ -38709,7 +38740,10 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||dtnmyp.cocotorico.com^
 ||dtobyiiuktxvp.com^
 ||dtprofit.com^
+||dtq9oy2ckjhxu.cloudfronace^
+||dtq9oy2ckjhxu.cloudfronnnerflux.com^
 ||dtq9oy2ckjhxu.cloudfront.net^
+||dtq9oy2ckjhxu.cloudfron|statafun.ru^
 ||dtqbqmzzbeck.com^
 ||dtr-onsite-feed.datarize.ai^
 ||dtrcw.cc^
@@ -40569,6 +40603,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||edt02.net^
 ||edthechildrenandthe.info^
 ||edtheparllase.com^
+||edtotigainare.info^
 ||edtp.de^
 ||edttfiou.com^
 ||edu-ad-test-cdn.cdn.bcebos.com^
@@ -41612,6 +41647,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||emailmarketing.vidanthealth.com^
 ||emailon.top^
 ||emailretargeting.com^
+||emailretargeting.iftcodethang7.com^
+||emailretargeting.ub.com^
 ||emails.ahctv.com^
 ||emails.animalplanet.com^
 ||emails.app.allcal.com^
@@ -41799,6 +41836,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||enacttournamentcute.com^
 ||enaenasiftage.com^
 ||enahmy.xyz^
+||enalzlw.top^
 ||ename.com.cn^
 ||ename.net^
 ||enamelcourage.com^
@@ -42573,7 +42611,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||esisfulylydev.com^
 ||esjvrfq.com^
 ||eskimi.com^
-||eskimi.com^$popup
 ||eskimi.com^$third-party
 ||eslbahw.top^
 ||esm1.net^
@@ -43293,6 +43330,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||everythingtoknows.com^
 ||everywheresavourblouse.com^
 ||eveteaemo.com^
+||evezar.com^
 ||evfisahy.xyz^
 ||evfrnqvextppij.com^
 ||evgywgur.com^
@@ -44096,6 +44134,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||fadama.com^
 ||fadama.com^$third-party
 ||fadbell.com^
+||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^
 ||fadeb9a7-2417-4a51-8d99-0421a5622cbe.xyz^$document,popup
 ||fadechildren.com^
 ||fadedprofit.com^
@@ -45330,6 +45369,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||fireworkswad.com^
 ||fireworktv.com^
 ||fireworktv.com^$third-party,badfilter
+||firewornnerflux.com^
 ||firkedpace.life^
 ||firkhmirhlohfyr.com^
 ||firmlylowest.com^
@@ -47243,6 +47283,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||fxpayments.americanexpress.co.nz^
 ||fxpayments.americanexpress.com.au^
 ||fxprime-popular.com^
+||fxprime-popult5.icu^
 ||fxqsxxvfgderjdf.com^
 ||fxrbsadtui.com^
 ||fxreferral.americanexpress.com^
@@ -47351,7 +47392,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||g.f11w.com^
 ||g.f5gh.com^
 ||g.fastapi.net^
-||g.fun^
 ||g.g.l.inmobicdn.net^
 ||g.gegeyingshi.com^
 ||g.getsimpler.me^
@@ -47446,6 +47486,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||g2546417787.com^
 ||g2575096355.co^
 ||g2921554487.com^
+||g2afse.ace^
 ||g2afse.com^
 ||g2afse.com^$popup
 ||g2ak5.com^
@@ -48658,6 +48699,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||gfw-hk.tapdb.net^
 ||gfw-sg.tapdb.net^
 ||gfxa.sheetmusicplus.com^
+||gfylyw.xyz^
 ||gfyoyo.adpolestar.net^
 ||gfzbdtwtlw.com^
 ||gg*.51cto.com^
@@ -50594,6 +50636,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||gpscard.cn^
 ||gpsecureads.com^
 ||gpsqnl.delsey.com^
+||gptkjrseu.com^
 ||gpttuucg.com^
 ||gpv.ex.co^
 ||gpxxbyf.cn^
@@ -53400,7 +53443,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||hkl4h1trk.com^
 ||hkljed.xyz^
 ||hkmvirkwqnscx.xyz^
-||hkngacxry.co^
 ||hkngacxry.com^
 ||hkowhqtenjfud.com^
 ||hkoxlirf.com^
@@ -56621,6 +56663,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||img50.pingguolv.com^
 ||img6.126.net^
 ||img7.1133.cc^
+||img8e51zy4bg.com^
+||img8e94zy4bg.com^
 ||img9.1133.cc^
 ||imgad.thepaper.cn^
 ||imgad0.3conline.com^
@@ -56877,6 +56921,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||impression.nend.net^
 ||impressiondesk.com^
 ||impressionmedia.cz^
+||impressionmonsteom^
 ||impressionmonster.com^
 ||impressionz.co.uk^
 ||impressivecontinuous.com^
@@ -63002,6 +63047,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||knalzld.top^
 ||knapia.weightwatchers.com^
 ||knaplpdmbrbi.com^
+||knappedmurshid.com^
 ||knasterlowlier.live^
 ||knaveavo.guru^
 ||knawelgrx.com^
@@ -63084,9 +63130,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||knqpyaholceobc.com^
 ||knsnyfpnbyakn.xyz^
 ||kntswafuos.com^
-||knuaxfv.c.fun^
 ||knuaxfv.cn^
-||knuaxfv.cunloetiosal.com^
 ||knubbyripens.uno^
 ||knudsenunmast.top^
 ||knurleddeblock.guru^
@@ -63730,6 +63774,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||kzsisc.3.dk^
 ||kzuxlydg.icu^
 ||kzyjpuqizc.com^
+||k|oriondigital.ru^
 ||l-iw.de^
 ||l-t.topya.com^
 ||l-test.civic.com^
@@ -65183,6 +65228,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||lienquancode.com^
 ||lienquangiftcodegarenavn.com^
 ||lienquangiftcodethang7.com^
+||lienquang|statafun.ru^
 ||lienquanmbvn.com^
 ||lienquanmobile.shop^
 ||lienquanmobilefree.com^
@@ -65257,6 +65303,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||lih6e.site^
 ||lihhxayjmr.com^
 ||lihong.ltd^
+||lihuwoothpastelipstick.com^
 ||lihuwvokhonsni.com^
 ||liitwrz.icu^
 ||liivhntsu.com^
@@ -66527,8 +66574,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||liximomo.me^
 ||liximomo.net^
 ||liximomo.top^
-||liximomo|fstsrv4.com^
-||liximomo||pixel.honestjohn.co.uk^
 ||lixincxy.cn^
 ||lixitetlienquan.com^
 ||lixnirokjqp.com^
@@ -66857,6 +66902,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||loaire.com^
 ||loajawun.com^
 ||loaksandtheir.info^
+||loaksandtheir.info^$popup
 ||loanmoney-th.com^
 ||loans.rategenius.com^
 ||loansales.cbre.com^
@@ -67526,6 +67572,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||logz.ru^
 ||logzh.dantocmiennui.vn^
 ||logzh.vietnamplus.vn^
+||log||f1.ichong123.com^
 ||loinbricksribbon.com^
 ||loind.mobio.vn^
 ||loinpriestinfected.com^
@@ -69758,6 +69805,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||m1.stadiumgoods.com^
 ||m1.vodjk.com^
 ||m1.we556.com^
+||m1170.top^
 ||m195.zzcm5.com^
 ||m19ud.cn^
 ||m1ll1c4n0.com^
@@ -69774,6 +69822,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||m2k3j7x8.com^
 ||m2m1.inner-active.mobi^
 ||m2pub.com^
+||m2p|statafun.ru^
 ||m2reg.ulm.ac.id^
 ||m2track.co^
 ||m2u.376710.com^
@@ -70253,6 +70302,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||mamaapparent.com^
 ||mamblubamblua.com^
 ||mambo.kiev.ua^
+||mameyesmulemen.com^
 ||mameyesmulemen.digital^
 ||mamka.aviasales.ru^
 ||mamluksburion.com^
@@ -72148,6 +72198,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||matomo.cloudfront.similarweb.io^
 ||matomo.ecoe.vn^
 ||matomo.goteborgco.se^
+||matomo.g|adx-tk.rayjump.com^
 ||matomo.hicity.vn^
 ||matomo.lulea.se^
 ||matomo.mindbite.cloud^
@@ -72746,6 +72797,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||mechaelpaceway.com^
 ||mechanicengagementdelivering.com^
 ||mechanicsforgave.com^
+||meckman.com^
 ||meckvpiey.com^
 ||meconicoutfish.com^
 ||mecurs.com^
@@ -73088,7 +73140,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||meetrics.net^
 ||meetsourhig.biz^
 ||meetwebclub.com^
-||meetwebclub.com^$document
 ||meeweb.com^
 ||meewireg.com^
 ||meexx.xyz^
@@ -76433,7 +76484,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||momhomicidalspa.com^
 ||momhseym.com^
 ||momijoy.ru^
-||mommygraveiesss.com,123moviestar.net,123moviies.org,123watchmovies.org,1xxx.tv,300mbmovies4u.club,33sk.tv,3arabicporn.com,3sk.co,4shworld.com,9anime.cloud,9movies.tv,9putlocker.io,9xrockers.pw,adultwallpapers.co.in,afghanidata.com,aflam.io,aflam4you.tv,aflamhq.co,aflamonlinee.org,akoam.net,altadefinizione01.love,altadefinizione01.site,anime-odcinki.pl,animedoor.com,animeflv.net,animesave.com,animeskai.biz,animestreams.tv,animeunity.it,animezone.pl,aovivonatv.com,arenavision.cc,atozmp3.co,baixandotudo.net,bestfilmeshd.com,bindassbros.com,bucetasx.com,cadelanocio.com.br,cambabe.me,camgirlbay.net,caminspector.net,camwhores.adult,camwhores.tv,camwhoreshd.com,cb01.io,ceesty.com,chatrooms.org.in,chodan.com,cima5.com,cimaclub.com,cinema4tv.com,clickndownload.*,clicknupload.*,clik.pw,cloudvideo.tv,clubedoaz.com.br,cmovieshd.bz,cmovieshd.com,cmovieshd.net,cockhero.org,converto.io,coolmg.com,crackzsoft.com,cwtvembeds.com,czech3x.net,dailyimages.xyz,darmowa-telewizja.online,denunciando.com,despreseriale.ro,dir50.com,downloadhub.org,downloadhub.ws,dp-stream.com,dramamate.com,dredown.com,ebooksz.net,egybest.site,embed.watchasian.co,extreme-d0wn.com,f-hd.net,f16f.com,fastplay.to,fatimakhamissa.com,ffmovies.ru,filehostguru.online,filerio.in,filme-bune.net,filmywap.com,flenix.net,flix555.com,flowhot.me,foxebook.net,freeapps4y.blogspot.com,freedisc.pl,freelivesports.co,full-stream.nu,fullmaza.net,fullmovies24.net,fullmoviescenter.com,fussball-livestream.net,gameofbay.org,gaypinoyporn.com,glinks.me,gnula.se,gogomovies.net,gomovies.la,gotdatfire.com,greenmp3.com,gsul.me,gsur.in,hdfilme.net,hdfilme.tv,hdmoviedownloader.com,hdmoviesfree.net,hdmp4mania.world,hdpopcorns.in,her69.net,hevcbay.com,hindugodsongs.com,igg-games.com,indexofmovie.com,indoakatsuki.net,indoxxi.show,ipagal.org,irp.uz,iwatchtwd.com,japscan.to,joymovies.com,justdubsanime.net,justupload.io,katmovie.de,katmoviehd.cc,kinoger.com,kinoger.to,kombatch.com,koursaros.net,kprofiles.com,kreskowkazone.pl,lapeliculas.com,legendofkorra.tv,libertyvf.co,linkcaptcha.net,m4ufree.io,mangahasu.se,mangaindo.web.id,mehlizmovies.com,milfzr.com,mobilemovieshd.in,momjoi.com,movie1k.pw,movie2free.com,moviebay.io,moviemart.in,movies1234.net,movies79.com,movieshd.ru,moviesonline.tf,movizland.online,mp3-pn.com,mp3-red.co,mp4mania.world,mr-hd.com,mrelhlawany.com,msphubs.com,my123movies.org,mywatchseries.stream,nepalikanchi.com,new-mastermovie.com,newpct.com,newpct1.com,nghmaty.com,ngusman.com,niagotch.com,oikamenoi.com,olozmp3.net,onlinechat.co.in,onprojectfreetv.site,otakustream.tv,ouo.io,pagalworldm.com,panda-streaming.net,pelisencastellano.com,phimotv.net,piratebays.co.uk,pirateproxy.wf,pirateproxy.yt,polskie-aktorki-porno.pl,pornlibrary.net,porntrex.com,punjabimoviesonline.org,putlocker.sk,putlockerfree.net,putlockertv.se,putlockertv.ws,rapidvideo.is,revivelink.com,rule34hentai.net,rumahminimalisbagus.com,sa7eralkutub.com,sabwap.co,savethevideo.com,sawlive.tv,scanof.net,sebn.sc,segiempat.com,sempreinter.com,sendvid.com,sexmag.biz,shaggyimg.pro,short.pe,shortmony.me,shurikenteam.com,siii.club,simitator.com,softcoretube.org,softpcfull.com,software-on.com,solarmovie.net,solarmovie.st,solarmoviefree.co,solarmoviefree.me,solarmoviesc.co,solarmoviex.to,speed4up.com,sportify365.blogspot.co.uk,sportify365.blogspot.hr,stiffgamerdown.com,stream4free.live,streaming-football.org,streamingo.org,streamm4u.com,subsmovies.me,swatchseries.to,tamilfreemp3songs.com,tamilmv.cz,tamilrock.org,telepisodes.org,thaihotmodels.com,the123movies.com,theseriesonline.net,topbestsite.me,toquemp3.com,torrentlocura.com,torrentmegafilme.com,torrentrapid.com,torrents9.org,torrentsmd.eu.org,tous-sports.tv,toussports.info,tubebg.com,tubecomplet.com,tudotv.tv,tudotvonline.com,tugaanimado.net,tusnovelas.net,twojetv.ws,uii.io,upload.ac,upzone.cc,urgetofap.com,urgrove.net,ustreamix.com,vidcloud.icu,vidload.co,vidnode.net,vidoevo.com,vidtomp3.info,vimeotomp3.com,viralitytoday.com,vojkudee.net,watch-online.biz,watch-series.co,watch32.is,watch5s.me,watchfilmy.com,watchmovies.pk,watchncum.com,watchonlinemovies.com.pk,watchparksandrecreation.net,watchrelyslime.com^
 ||mommygravelyslime.com^
 ||momo.builders^
 ||momo.wiki^
@@ -77563,6 +77613,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||mutecrane.com^
 ||muteknife.com^
 ||mutemailbox.com^
+||mutenessdollyheadlobashi.com^
 ||mutenessdollyheadlong.com^
 ||muterange.com^
 ||mutinousconductdisk.com^
@@ -78232,6 +78283,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||naifshinnied.top^
 ||naiglipu.xyz^
 ||naigristoa.com^
+||naihyvz.cn^
 ||nailyhexones.uno^
 ||naimoate.xyz^
 ||naing.bnmla.com^
@@ -79435,6 +79487,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||nextgencounter.com^
 ||nextlnk9.com^
 ||nextmillennium.io^
+||nextmillmedia.com^
+||nextmillmedia.com^$third-party
 ||nextoptim.com^
 ||nextpay-mposruttientindung.com^
 ||nextpay-quettindung.com^
@@ -80029,7 +80083,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||nnxijkdigwywla.com^
 ||no-cdn.convertexperiments.com^
 ||no.resailslemures.com^
-||no2veeamg^
 ||no2veeamggaseber.com^
 ||no9pldds1lmn3.soundcloud.com^
 ||noa.yahoo.com^
@@ -80720,6 +80773,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||nugrudsu.xyz^
 ||nugxmtkydv.com^
 ||nuheoub.cn^
+||nuhgpx.xyz^
 ||nui.media^
 ||nuisancehi.com^
 ||nukeluck.net^
@@ -81190,6 +81244,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||obfrok.partyking.no^
 ||obgbok.com^
 ||obgdk.top^
+||obgekjz.icu^
 ||obhggjchjkpb.xyz^
 ||obhnrw.furniturebox.se^
 ||obhxvb.tmktools.ru^
@@ -81808,6 +81863,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ojuhfoa.com^
 ||ojuhjcmhemvs.com^
 ||ojuhwc.xyz^
+||ojvpigx.xyz^
 ||ojvxtz.junonline.jp^
 ||ojwapnolwa.com^
 ||ojwoqdpiwdt.com^
@@ -82481,7 +82537,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||onlyyourbiglove.com^
 ||onmantineer.com^
 ||onmantineer.com^$document
-||onmantineer.com^$popup
 ||onmarketer.net^
 ||onmarshtompor.com^
 ||onmlkjiion.carte-gr.total.fr^
@@ -83685,6 +83740,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ovqds.com^
 ||ovrsso.gemo.fr^
 ||ovsdnhpigmtd.xyz^
+||ovsgalzea.com^
 ||ovsiicni.com^
 ||ovsrhikuma.com^
 ||ovuvmdoty.com^
@@ -84046,6 +84102,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||p01.notifa.info^
 ||p01.sc.origins.en25.com^
 ||p02.notifa.info^
+||p02boosts.com^
+||p02pgz.icu^
 ||p03.notifa.info^
 ||p03.sc.origins.en25.com^
 ||p03h.hs.eloqua.com^
@@ -85082,6 +85140,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||pbnet.ru^
 ||pbnjzwjsy.com^
 ||pboddnqjobuf.com^
+||pboosts.com^
 ||pbox.no.photobox.com^
 ||pbox.photobox.at^
 ||pbox.photobox.be^
@@ -86340,7 +86399,9 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||pingomatic.com^
 ||pingometer.com^
 ||pingpepa.xyz^
+||pings.conv^
 ||pings.conviva.com^
+||pings.convt^
 ||pings.vidpulse.com^
 ||pingshetrip.com^
 ||pingtas.qq.com^
@@ -88180,6 +88241,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||pr.cision.co.uk^
 ||pr.cision.com^
 ||pr.comet.yahoo.com^
+||pr.costaction.com^$third-party
 ||pr.da.netease.com^
 ||pr.ikovrov.ru^
 ||pr.nss.netease.com^
@@ -89121,6 +89183,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||protestgrove.com^
 ||protexting.com^
 ||protizer.ru^
+||proto2ad.durasite.net^
 ||protoawe.com^
 ||protocolburlap.com^
 ||protocolgroupgroups.com^
@@ -89159,6 +89222,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||provocativeprivate.com^
 ||provokeobnoxious.com^
 ||prowertarre.uno^
+||prowertarre.uno^iva.com^
+||prowertarre.uno^|adx-tk.rayjump.com^
 ||prowesscourtsouth.com^
 ||prowesshearing.com^
 ||prowesstense.com^
@@ -89516,6 +89581,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ptrfc.com^
 ||ptrk-wn.com^
 ||ptsc.shoplocal.com^
+||ptsixwereksbef.info^
+||ptsixwereksbef.info^$popup
 ||ptstnews.pro^
 ||pttsite.com^
 ||ptufihie.net^
@@ -90413,6 +90480,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||pzxhyp.aeropostale.com^
 ||pzykrcq.cn^
 ||pzz.events^
+||p|sp.minds.com^
 ||q*-publick.club^
 ||q-counter.com^
 ||q-stats.nl^
@@ -90436,6 +90504,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||q.skiplino.com^
 ||q.vlion.cn^
 ||q.xmlrtb.com^
+||q02orc.cn^
 ||q0mn5t187u.ru^
 ||q0yxfvuo32.ru^
 ||q1-tdsge.com^
@@ -91397,6 +91466,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||query.petametrics.com^
 ||query1.petametrics.com^
 ||query2.petametrics.com^
+||queryhookclection-endpoint-prod.herokuapp.com^
+||queryhookcnettvservices.com^
 ||queryhookczar.com^
 ||querylead.com^
 ||querysteer.com^
@@ -93260,7 +93331,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||renaissanto.com^
 ||renamedhourstub.com^
 ||renamedineffective.com^
-||renamedineffective.comcom^
 ||renaultbankdirekt.efscle.com^
 ||rencohep.com^
 ||rencontreadultere.club^
@@ -94191,6 +94261,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||rifyeldz.top^
 ||rigel.baidustatic.com^
 ||rigelbetelgeuse.top^
+||rigelbetelgeuse.top^$popup
 ||rigelink.com^
 ||rigembassyleaving.com^
 ||rigfoxcup.site^
@@ -94563,6 +94634,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||rocks.io^
 ||rocktrustbank.com^
 ||rockyou.net^
+||rocobashi.com^
 ||rocobo.uno^
 ||rocoloagrotis.fun^
 ||rodecommercial.com^
@@ -95160,7 +95232,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||rtbid.me^
 ||rtbidder.net^
 ||rtbimp-loadbalancer-*.amazonaws.com^
-||rtbinterml^
 ||rtbinternet.com^
 ||rtbiq.com^
 ||rtbix.com^
@@ -97791,6 +97862,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||scribblestring.com^
 ||scribe.twitter.com^
 ||scribe.wongnai.com^
+||scrippscontroldigital^
+||scrippscontroliva.com^
 ||scrippscontroller.com^
 ||scrippsfoodnetnew.foodnetwork.com^
 ||scrippshgtvnew.hgtv.com^
@@ -97816,7 +97889,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||script.vccoo.com^
 ||script.wpm.neustar.biz^
 ||script.yomeno.xyz^
-||scriptall.gaseber.com^
 ||scriptall.ml^
 ||scriptcdn.net^
 ||scripte-monster.de^
@@ -98149,6 +98221,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||sea2.authcaptcha.com^
 ||seabank-nganhanghanoi.com^
 ||seaboblit.com^
+||seadcape.com^
 ||seadform.net^
 ||seafoodclickwaited.com^
 ||seafooddiscouragelavishness.com^
@@ -98822,6 +98895,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||selftour.walk.in^
 ||sell*.etlong.com^
 ||sellaction.net^
+||sellbleatreace^
 ||sellbleatregistry.com^
 ||sellbuyads.cn^
 ||sellbuyads.cn^$third-party
@@ -99605,6 +99679,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||sha50.com^
 ||shabaiks.com^
 ||shabsaco.net^
+||shackapple.cmine.com^
 ||shackapple.com^
 ||shackdialectsense.com^
 ||shacsda.name^
@@ -100034,7 +100109,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||shlyapajhd2kle8pnc09.com^
 ||shmoesunbow.top^
 ||shmokiads.com^
-||shn^
 ||shndrktrk.com^
 ||shnpetdb638.shop^
 ||shnpetdn185.shop^
@@ -101480,6 +101554,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||slipperyinside.pro^
 ||slipperysack.com^
 ||slipstream.skyscanner.net^
+||slis.io^
 ||slit.lewd.rip^
 ||slivmux.com^
 ||slivz.com^
@@ -106563,7 +106638,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||sq1.chinacsky.com^
 ||sq2.chinacsky.com^
 ||sq59.cn^
-||sq59.cnlenprejudice.com^
 ||sqctkocts.com^
 ||sqd.jstdjq.com^
 ||sqdd.myapp.com^
@@ -110307,6 +110381,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||styrianauf.com^
 ||styusib.top^
 ||stzhnfcxx.com^
+||st|adx-tk.rayjump.com^
 ||su.8881919.cc^
 ||su.addthis.com^
 ||su.bdimg.com^
@@ -111242,6 +111317,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||swiss-counter.com^
 ||swissadserver.ch^
 ||swissinside.easyjet.com.edgekey.net.easyjet.com^
+||swisst^
 ||swisstoothpastelipstick.com^
 ||switch.atdmt.com^
 ||switch.taplytics.com^
@@ -111679,6 +111755,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||szyajnfanx.com^
 ||szyr474.com^
 ||szzhwaaxhnnrx.com^
+||s||adspyglass.com^
 ||t*.zcvh.net^
 ||t-ads.adap.tv^
 ||t-ak.hulu.com^
@@ -112510,7 +112587,9 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||tagmanager.cn^
 ||tagmanager.smartadserver.com^
 ||tagmanager.toast.com^
+||tagmanager.yodcnzz.com^
 ||tagmanager.yodobashi.com^
+||tagmanager.yod||middaypredicamentnephew.com^
 ||tagmediation.supersonicads.com^
 ||tagmngrs.com^
 ||tagon.co^
@@ -112668,6 +112747,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||takqyi.laurenhi.jp^
 ||takru.com^
 ||takychasing.com^
+||takychasing.ct.net^
 ||tala.net.anwalt.de^
 ||talabondreary.top^
 ||talapop.ir^
@@ -114523,6 +114603,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||thoroughfarefeudalfaster.com^
 ||thoroughlynightsteak.com^
 ||thoroughlyshave.com^
+||thorougr.com^
+||thoroug||asespeonom.com^
 ||thorpeseriouslybabysitting.com^
 ||thorsado.net^
 ||thoseads.com^
@@ -118224,6 +118306,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||tracking.vtc.vn^
 ||tracking.vtcnew.com.vn^
 ||tracking.vxonews.se^
+||tracking.v|traffic.wdc.center^
 ||tracking.waterfrontmedia.com^
 ||tracking.webtradecenter.com^
 ||tracking.winadx.com^
@@ -118862,6 +118945,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||triggersinclude.com^
 ||triggertag.gorillanation.com^
 ||triggit.com^
+||triglyheileaulite.com^
 ||triglyheiled.website^
 ||trigr.co^
 ||trigraff.com^
@@ -120309,6 +120393,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||u5nvu.xyz^
 ||u6.gg^
 ||u652.myplainview.com^
+||u68dia.ad-lps.net^
 ||u68t5.icu^
 ||u78s.top^
 ||u7kgr54jr7.ru^
@@ -121293,6 +121378,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||unkinpigsty.com^
 ||unknowncrate.com^
 ||unknownhormonesafeguard.com^
+||unknownhormonesafeguard.com^ks.io^
+||unknownhormonesafeguard.com^vokhonsni.com^
 ||unknowntray.com^
 ||unl1zvy2zuyn.franchiseplus.nl^
 ||unlawedimaret.top^
@@ -122180,6 +122267,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||utjzyz.phillips.com^
 ||utk.baidu.cn^
 ||utk.baidu.com^
+||utkauo.xyz^
 ||utklhk.kojima.net^
 ||utl-1.com^
 ||utlhaoyc.xyz^
@@ -123266,6 +123354,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||veinteractive.com^
 ||veipcwjeupr.com^
 ||veitgov.cc^
+||vejhln.xyz^
 ||vekroata.net^
 ||vektor-eu-west-1.axonix.com^
 ||vektor-us-east-1.axonix.com^
@@ -123636,7 +123725,11 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||victorytunatulip.com^
 ||victoryvids.space^
 ||vid-caps.online^
+||vid-clips.sp.com^
+||vid-clips.sp.vnfinance.vn^
 ||vid-clips.space^
+||vid-clips.spler.com^
+||vid-clips.spzar.com^
 ||vid-cpm.xapads.com^
 ||vid-for-clips.space^
 ||vid-rtb.xapads.com^
@@ -124039,6 +124132,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||viewar.org^
 ||viewclc.com^
 ||viewdeos.com^
+||viewdeos.com^$script,third-party
 ||viewedmockingcarsick.com^
 ||viewer.pandasuite.io^
 ||viewerebook.com^
@@ -124377,6 +124471,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||visitationdependwrath.com^
 ||visitbox.de^
 ||visite.scambi.org^
+||visitingheedlessexacom^
+||visitingheedlessexagistry.com^
 ||visitingheedlessexamine.com^
 ||visitingpurrplight.com^
 ||visitlog.net^
@@ -126259,6 +126355,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||web-counter.net^
 ||web-device-id.banggood.com^
 ||web-guardian.xyz^
+||web-hostom^
 ||web-hosts.io^
 ||web-membbership-freefire-garena.com^
 ||web-rabbit.meitustat.com^
@@ -127147,6 +127244,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||wheeptit.net^
 ||wheeshoo.net^
 ||wheestop.xyz^
+||wheetlckman.com^
 ||wheetlemetreza.com^
 ||wheftouw.xyz^
 ||whehilru.com^
@@ -127451,6 +127549,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||widgets.jutarnji.hr^
 ||widgets.lendingtree.com^
 ||widgets.mgid.com^
+||widgets.monito.com^
+||widgets.monito.com^$third-party
 ||widgets.oddschecker.com^
 ||widgets.openli.com^
 ||widgets.outbrain.com^
@@ -127906,6 +128006,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||wn.x.jd.com^
 ||wn68din.cn^
 ||wn80drk.shop^
+||wnalzle.top^
 ||wnbfw.com^
 ||wncs.7ez4.cn^
 ||wnd2.destinia.cat^
@@ -128352,7 +128453,10 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||writhenwends.com^
 ||writhing-library.pro^
 ||writingwhine.com^
+||writshacd.com^
 ||writshackman.com^
+||writshaddeceived.com^
+||writshas.io^
 ||writtenanonymousgum.com^
 ||wrjcedwpsybttkh.com^
 ||wrkbha.lyst.de^
@@ -130574,6 +130678,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||xdycqcoefditwj.com^
 ||xdyjt.com^
 ||xdypuudfxmecd.com^
+||xdypuudfxmeemetreza.com^
 ||xdzjbn.xyz^
 ||xe2c.com^
 ||xeazoj.icu^
@@ -132776,6 +132881,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ythjhk.com^
 ||ytihp.com^
 ||ytimewornan.org^
+||ytimewornan.org^ckman.com^
 ||ytimgg.com^
 ||ytimm.com^
 ||ytjzqde.xyz^
@@ -132805,7 +132911,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||ytzihf.com^
 ||yu.dlxxjsh.top^
 ||yu0123456.com^
-||yu012^
 ||yu987.com^
 ||yuanchengxiezuo.com^
 ||yuanlin15.cn^
@@ -133045,7 +133150,6 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||yywridi.cn^
 ||yyyaih.icu^
 ||yyys.shop^
-||yz^
 ||yzaosite.com^
 ||yzc35326.top^
 ||yzcpgadw.icu^
@@ -133469,6 +133573,7 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||zekkdxt.com^
 ||zektch.buzz^
 ||zektch.xyz^
+||zekzoh.icu^
 ||zel-zel-fie.com^
 ||zelatorpukka.com^
 ||zelfo.pw^
@@ -133897,6 +134002,8 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||zkqhqv.sizeofficial.it^
 ||zktsygv.com^
 ||zkxggrwzswhpgn.com^
+||zkzace^
+||zkzar.com^
 ||zkzpgz.icu^
 ||zla963.top^
 ||zlacraft.com^
@@ -134501,3 +134608,4 @@ xxxvideos.ink,alohatube.xyz,xxxstreams.org,24animeporn.com,3dhentaicomics.com,3d
 ||zzyy20.top^
 ||zzzjvqzkmqjyb.top^
 ||zzznews.ru^
+|||f1.ichong123.com^
