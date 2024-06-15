@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端AdGuard，主要为Adguard For Android
 ! Description: 该规则提取自自定义合并后的AdGuard规则及HOSTS规则，只包含DNS过滤规则
-! Version: 2024-06-14 08:49:05（北京时间）
-! Total count: 139003
+! Version: 2024-06-15 08:48:56（北京时间）
+! Total count: 139034
 *-stats.jpush.cn^
 *.pop.js^$script
 *ad.durasite.net^
@@ -259,6 +259,7 @@
 @@||cdn.duurzaam.greenchoice.nl^|
 @@||cdn.rozetka.com.ua^|
 @@||cdn.us*.exponea.com^|
+@@||cdn13.com^$stealth,media
 @@||cdndm5.com^$stealth
 @@||cdnvideo.ru^$stealth
 @@||cdpn.io^$generichide
@@ -418,7 +419,6 @@
 @@||files.slack.com^$image,~third-party
 @@||filespace.com^$generichide
 @@||filmweb.pl^$generichide
-@@||findernet.com^$content
 @@||firefaucet.win^$generichide
 @@||football-lineups.com^$generichide
 @@||forum.notebookreview.com^|
@@ -596,6 +596,7 @@
 @@||megaup.net^$generichide
 @@||meizu.coapi.moji.com^
 @@||mens1069.com^$generichide
+@@||metabomb.net^$generichide
 @@||mi.cn^
 @@||milfzr.com^$generichide
 @@||minigame.qq.com^
@@ -654,8 +655,8 @@
 @@||oisd.nl^$generichide
 @@||olgame.tw^$generichide
 @@||omegle.com^$jsinject
-@@||omniture.walmart.com^|games.com^
-@@||omniture.walmart.com^||viinsdap.com^
+@@||omniture.walmart.com^|adshedm.org^
+@@||omniture.walmart.com^|fe.ru^
 @@||omsc.kpn.com^|
 @@||onedrive.live.com^
 @@||onedrive.live.com^$generichide
@@ -800,7 +801,6 @@
 @@||speedtestcustom.com^$subdocument,stealth
 @@||sponsor.nitropay.com^|
 @@||sportnews.to^$generichide
-@@||ssl-thumb2.720static.com^$stealth,image
 @@||sso.kinopoisk.ru^$stealth
 @@||sssbozh.com^$generichide
 @@||stackblitz.com^$generichide
@@ -961,6 +961,7 @@
 @@||www.googleadservices.com^|
 @@||www.gsxt.gov.cn^
 @@||www.jdoqocy.com^|
+@@||www.literotica.com^$content
 @@||www.mma.go.kr^$removeparam
 @@||www.msftconnecttest.com^
 @@||www.statcounter.com^|
@@ -971,8 +972,7 @@
 @@||xboxlive.com^$stealth
 @@||xboxservices.com^$stealth
 @@||xfinity.com^$stealth
-@@||xfreehd.com^$generichide! Checksum: chdvkJ7Y3P9ctCd0YyDj2g
-@@||xfreehd.com^$generichideer
+@@||xfreehd.com^$generichide! Checksum: NByhKBqgRO0Pyhoqf+U1AA
 @@||xidian.edu.cn^$generichide
 @@||xiuren.org^$generichide
 @@||xmxing.net^
@@ -1013,7 +1013,8 @@ gcdsdk.appsflyersdk.com^
 hxsame.hexun.com^
 iadctest.qwapi.com^
 inapps.appsflyersdk.com^
-new-123movies.live,gomovies-online.link,new-123movies.net,solarmovie-online.*,real-solarmovie.comiddoan.club^
+loudfront.net^
+mentalfloss.com,90min.com,fansided.com,90min.de,12thmanrising.com,1428elm.com,8points9seconds.com,acceptthisrose.com,airalamo.com,allcougdup.com,allfortennessee.com,allstokedup.com,allucanheat.com,alongmainstreet.com,amazonadviser.com,animeaway.com,apptrigger.com,aroundthefoghorn.com,aroyalpain.com,arrowheadaddict.com,artofgears.com,askeverest.com,audiophix.com,autzenzoo.com,awaybackgone.com,awinninghabit.com,badgerofhonor.com,balldurham.com,bamahammer.com,b.com^
 push.qq.com^
 register.appsflyersdk.com^
 tieba.baidu.com##DIV.panel_bottom,LI.tl_shadow tl_shadow_new ^
@@ -1022,7 +1023,6 @@ wjyhao.com^
 www.tyzrcs.com###__^HFa,DIV.box top_box
 wxsnsdy.tc.qq.com^
 wxsnsdy.video.qq.com^
-zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtube.com###tgcwfvrf.com^
 |c.blue.*.com^|
 ||*-analytics*.huami.com^
 ||*.diwodiwo.xyz^
@@ -10024,7 +10024,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||admit.mountsaintvincent.edu^
 ||admitad-connect.com^
 ||admitad.com^
-||admitad.com^$popup
 ||admith.com^
 ||admittancetoy.com^
 ||admix.in^
@@ -23129,6 +23128,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||bing009.shop^
 ||binga01.shop^
 ||binga03.shop^
+||binga07.shop^
 ||bingads.microsoft.com^
 ||bingdianhuanyuan.cn^
 ||bingoocy.com^
@@ -26273,7 +26273,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||ca88b.cn^
 ||ca9246.xyz^
 ||caa2c4.xyz^
-||caa2c4.xyz^$document,popup
 ||caaie.xyz^
 ||caajol.icu^
 ||caamcs.julipet.it^
@@ -27736,6 +27735,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||cdn.publift.com^
 ||cdn.pubmatic.com^
 ||cdn.pubnative.net^
+||cdn.pubnub.com^
 ||cdn.purpleads.io^
 ||cdn.pushalert.co^
 ||cdn.pushcrew.com^
@@ -30595,6 +30595,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||cnt.promodj.com^
 ||cnt.rambler.ru^
 ||cnt.ramlife.ru^
+||cnt.ramlition.com^
 ||cnt.rate.ru^
 ||cnt.spbland.ru^
 ||cnt.st^
@@ -33469,6 +33470,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||crumbrationally.com^
 ||crumbs.robinhood.com^
 ||crumbtypewriterhome.com^
+||crummerexisted.com^
 ||crummygoddess.com^
 ||crumpet.xxxpornhd.pro^
 ||crumplylenient.com^
@@ -34903,6 +34905,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||d236v5t33fsfwk.cloudfront.net^
 ||d239g0z67jcted.cloudfront.net^
 ||d23a1izvegnhq4.cloudfront.net^
+||d23a1izvegnhq4.cocuw.net^
 ||d23d7sc86jmil5.cloudfront.net^
 ||d23guct4biwna6.cloudfront.net^
 ||d23p9gffjvre9v.cloudfront.net^
@@ -35823,6 +35826,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||dam.corel.com^
 ||dam.zhqryw.cn^
 ||damagecontributionexcessive.com^
+||damagecontributionexcessivv5k.com^
 ||damaged-fix.pro^
 ||damaged-shop.pro^
 ||damagedadvice.com^
@@ -35991,6 +35995,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||dasistnews.net^
 ||daslethv.com^
 ||dasljfoq.top^
+||daslkdlqk.top^
 ||dasperdolus.com^
 ||dasv10rewq.xyz^
 ||dasych.drmartypets.com^
@@ -43687,7 +43692,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||emarketing.landisgyr.com^
 ||emarketing.moveo.com^
 ||ematicsolutions.com^
-||ematicsolutions.com^$third-party
 ||emb.soothe.com^
 ||embaleobelia.life^
 ||embalmswrights.com^
@@ -46130,6 +46134,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||f3fea4450e3b.xzccie.com^
 ||f3ft699cloae.staging.artwallstreet.io^
 ||f3udfa7nfguhni.com^
+||f417a726.xyz^
 ||f417a726.xyz^$document,popup
 ||f43f5a2390.com^
 ||f459fdc403a6.78a5254f.ap-northeast-1.token.awswaf.com^
@@ -46188,6 +46193,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||fa21aff8b2.1a714ee67c.com^
 ||fa77756437.com^
 ||fa9b667e4e.com^
+||faaqgje.icu^
 ||fabricww.com^
 ||fabriczigzagpercentage.com^
 ||fabrkrup.com^
@@ -49336,6 +49342,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||furtheryearbookbelieved.com^
 ||furtivelybleedlyrics.com^
 ||fusainswheeled.com^
+||fuse-cloucopussamkhya.com^
 ||fuse-cloud.com^
 ||fuse.forbes.com^
 ||fuseamazementavow.com^
@@ -51207,6 +51214,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||gimavpojtqa.com^
 ||gimg.baidu.com^
 ||gimg.bitauto.com^
+||gimmalscutches.com^
 ||gimme-promo.com^
 ||gimmickry26.fun^
 ||gimnsr.com^
@@ -52704,6 +52712,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||goohimom.net^
 ||goolaptaugab.com^
 ||goole20.shop^
+||goole24.shop^
 ||goolpter.com^
 ||goomaphy.com^
 ||goon.ru^
@@ -55158,6 +55167,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||heukwasanasosett.info^
 ||heusysianedu.com^
 ||hevc.site^
+||hevctt.xyz^
 ||hevdnzqu.com^
 ||hevqaz.submarino.com.br^
 ||hewalleges.guru^
@@ -56326,7 +56336,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||hot-dating-here.life^
 ||hot-membership.com^
 ||hot-mob.com^
-||hot-mob.com^$third-party
 ||hot-stories.cn^
 ||hot.browser.intl.miui.com^
 ||hot.eastday.com^
@@ -57074,6 +57083,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||hwmonitor-ru.ru^
 ||hwmwin.com^
 ||hwnod.xyz^
+||hwnojj.xyz^
 ||hwof.info^
 ||hwosl.cloud^
 ||hwpnocpctu.com^
@@ -62370,6 +62380,8 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||j2i0.mathon.fr^
 ||j3.dthznc.com^
 ||j45.webringporn.com^
+||j4a73n7ite.com^
+||j4a73n7uanz.xyz^
 ||j4a73n7v5k.com^
 ||j6mn99mr0m2n.com^
 ||j6rudlybdy.com^
@@ -69181,6 +69193,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||liufenghua.com^
 ||liugaohao.com^
 ||liuguoyu.wang^
+||liuhui111.top^
 ||liujiahao6.cn^
 ||liuliguo.com^
 ||liupoaa.com^
@@ -70168,6 +70181,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||logger.bzu.kr^
 ||logger.cloudmobi.net^
 ||logger.co.kr^
+||logger.dailymon.co.kr^
 ||logger.dailymotion.com^
 ||logger.eigene.io^
 ||logger.goeuro.com^
@@ -70555,6 +70569,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||louchaug.com^
 ||louchees.net^
 ||louderwalnut.com^
+||loudfront.net^
 ||loudlongerfolk.com^
 ||loudlunch.com^
 ||lougougauhi.xyz^
@@ -75575,6 +75590,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||me.afp.chinanews.com^
 ||me.coact.org.au^
 ||me.com.x9wj2.cn^
+||me.com^
 ||me.cpatrk.net^
 ||me.glamhive.com^
 ||me.sigsauer.com^
@@ -78047,7 +78063,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||mggzah.icu^
 ||mghkpg.com^
 ||mgid.com^
-||mgid.com^$popup
 ||mgid.com^$third-party
 ||mgidskix.top^
 ||mgivkqk.cn^
@@ -80701,6 +80716,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||mxcdn2.now.sh^
 ||mxcount.com^
 ||mxdzxd.mister-auto.com^
+||mxeel.com^
 ||mxeq.cn^
 ||mxevdii.cn^
 ||mxgboxq.com^
@@ -84693,6 +84709,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||ofhunch.com^
 ||ofhypnoer.com^
 ||ofitstefukste.org^
+||ofjslik.top^
 ||ofkcww.xyz^
 ||ofkqiy.knowfashionstyle.com^
 ||ofkvdwqimwxnm.com^
@@ -86319,6 +86336,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||osageafresh.com^
 ||osancik.top^
 ||osangauh.net^
+||osanyc.xyz^
 ||osarmapa.net^
 ||osaunsot.net^
 ||osbpcosnfgo.com^
@@ -87979,6 +87997,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||partnerapp.kravein.com.au^
 ||partnerapp.urbanclap.com^
 ||partnerbcgame.com^
+||partnercash.cn.co.kr^
 ||partnercash.com^
 ||partnercash.de^
 ||partnerdev.extasy.com^
@@ -90909,6 +90928,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||ponyresentment.com^
 ||ponysuggested.com^
 ||pooboqxoh.xyz^
+||poocuw.net^
 ||poodledopas.cam^
 ||poogriry.click^
 ||pookaipssurvey.space^
@@ -91285,6 +91305,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||pouchaffection.com^
 ||pouchclockwise.com^
 ||poucoaga.com^
+||poud.com^
 ||poufaini.com^
 ||poufsgausses.top^
 ||poumouja.xyz^
@@ -98187,6 +98208,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||ronm.top^
 ||rontar.com^
 ||roobetaffiliates.com^
+||roobetaffiliates.com^$document
 ||roofing.galacticleads.com^
 ||roofprison.com^
 ||roofrelation.com^
@@ -103492,6 +103514,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||shaumtol.com^
 ||shauptab.net^
 ||shaursar.net^
+||shauv5k.com^
 ||shauxeel.com^
 ||shavecleanupsedate.com^
 ||shavetulip.com^
@@ -109493,6 +109516,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||soodland.com^
 ||soodupsep.xyz^
 ||soogandrooped.cam^
+||soom^
 ||soonlint.com^
 ||soonpersuasiveagony.com^
 ||soonstrongestquoted.com^
@@ -109661,6 +109685,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||sowlettuce.com^
 ||sowp.cloud^
 ||sowsuwm.icu^
+||sowx.cn^
 ||soxnwz.lg.com^
 ||soyjlnfatgxpfd.com^
 ||soysapslad.com^
@@ -113505,6 +113530,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||steinfqwe6782beck.com^
 ||steinsala.viessmann.lu^
 ||stekraucmauk.com^
+||stekraucmauk.corb.com^
 ||stel.telegraaf.nl^
 ||stelagharris.com^
 ||stelaiatokal.top^
@@ -114547,7 +114573,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||sunspotpitchy.website^
 ||sunstrokeload.com^
 ||suntcontent.se^
-||suntcontent.se^$third-party
 ||suntechauto.com.cn^
 ||sunwardamoraic.com^
 ||suo.im^
@@ -123518,7 +123543,6 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||trusteverything.de^
 ||trustflayer1.online^
 ||trustiseverything.de^
-||trustiseverything.de^$third-party
 ||trustisimportant.fun^
 ||trustlearningclearly.com^
 ||trustmaxonline.com^
@@ -124449,7 +124473,9 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||uabpuwz.com^
 ||uac-assets.inmobicdn.net^
 ||uac.advertising.com^
+||uac.khagou.st^
 ||uac.khan.co.kr^
+||uac.khaom^
 ||uadexchange.com^
 ||uads.cc^
 ||uads.digital^
@@ -124471,6 +124497,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||uamrnaakv.com^
 ||uanbpywrumpuj.com^
 ||uandmyfuture.net.anwalt.de^
+||uanz.xyz^
 ||uapi.ads.heytapmobi.com^
 ||uapi.ads.oppomobile.com^
 ||uaputgtwlhkmtr.com^
@@ -124772,6 +124799,8 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||ugripaid.com^
 ||ugroocuw.net^
 ||ugroogree.com^
+||ugroucopussamkhya.com^
+||ugrozxcdn.com^
 ||ugtbit.icu^
 ||uguforvfud.com^
 ||ugujwhwwyh.com^
@@ -125258,6 +125287,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||undertone.com^$third-party
 ||underwarming.com^
 ||underwaterbirch.com^
+||underwearsourcom^
 ||underwearsourorb.com^
 ||underwilliameliza.com^
 ||undesirableslim.com^
@@ -138311,6 +138341,7 @@ zipextractor.app,foreca.*,falkirkherald.co.uk,printscreenshot.com,indiansexxxtub
 ||zivbxion.ru^
 ||zivtux.com^
 ||ziwane.uno^
+||ziwelatum.com^
 ||ziwewm.tecovas.com^
 ||zixuncooperation.html5.qq.com^
 ||ziye8.com^
