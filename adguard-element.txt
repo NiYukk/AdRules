@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端AdGuard，主要为Adguard For Android
 ! Description: 该规则提取自自定义合并后的AdGuard规则，只包含元素过滤规则
-! Version: 2025-09-06 09:01:01（北京时间）
-! Total count: 89180
+! Version: 2025-09-07 09:07:45（北京时间）
+! Total count: 89182
 ###AC_ad
 ###AD_160
 ###AD_300
@@ -16135,7 +16135,6 @@ $script,third-party,domain=hitomi.la|rule34hentai.net,badfilter
 $script,third-party,domain=imgbox.com
 $script,third-party,domain=ouo.io|ouo.press
 $script,third-party,domain=rule34hentai.net
-$script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.se|torrentkitty.tv|torrkitty.com
 $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
 $script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
 $script,third-party,websocket,domain=52codes.net
@@ -25705,7 +25704,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/admanager/*$domain=woego.cn
 @@/adpartner.min.js$domain=starkroboticsfrc.com|cryptednews.space|seoliv.com|blackwoodacademy.org|crypto-radio.eu|tiktokcounter.net
 @@/adpic/*$domain=baike.baidu.com|czsrc.com|nieyou.com|ontheup.com.tw|zform.net
-@@/adpro.js$domain=tingfm.com
 @@/ads-api.$domain=moneysave.info|zxmee.com
 @@/ads.*.js$domain=notebookcheck-hu.com|notebookcheck.com|notebookcheck.net|notebookcheck.org|notebookcheck.biz|notebookcheck.it|notebookcheck.nl|notebookcheck.info|notebookcheck-tr.com|notebookcheck.se|notebookcheck-ru.com
 @@/ads.js$domain=cut-urls.com,~third-party
@@ -28259,7 +28257,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@||data.alicloudccp.com^$stealth,domain=aliyundrive.com
 @@||data.reactandshare.com/api/plugin/$stealth=referrer,domain=maanmittauslaitos.fi
 @@||data.simpleupload.net/download/$stealth=referrer
-@@||data.tm-awx.com^$script,domain=birminghammail.co.uk|bristolpost.co.uk|dailyrecord.co.uk|hulldailymail.co.uk|liverpoolecho.co.uk|manchestereveningnews.co.uk|stokesentinel.co.uk
 @@||datacloudmail.ru^$domain=cloud.mail.ru,stealth=3p-cookie|referrer
 @@||datacomp.sk^$stealth=dpi
 @@||datacrate18.xyz/file2/$stealth=referrer
@@ -38852,6 +38849,8 @@ carscoops.com##._ap_apex_ad
 carscoops.com##.cnt_asd
 carscoops.com##.in-asd-content
 carsdirect.com##.adFooterWrapper
+carsdirect.com##.inlineAdWrapper
+carsdirect.com##.topBannerAdContainer
 carsguide.com.au##.ad.m-rec
 carsguide.com.au##.glance-leaderboard-container
 carsguide.com.au,coinranking.com,tutorialrepublic.com,adz7short.space,short.croclix.me,milesplit.com,adz7short.space,forum.xda-developers.com,countle.com,picmix.com,pornsfw.com##.leaderboard
@@ -42621,7 +42620,6 @@ element-plus.gitee.io##.sidebar > .page-content
 element-plus.gitee.io##.toc-content > .m-t-16px
 element-plus.gitee.io##aside > .page-content
 element-plus.org##.doc-content-zosdsoycx
-element-plus.org##.doc-s-content
 elephanttube.world##.bottom-block
 elephanttube.world##.spots-bottom
 elephanttube.world,pornid.xxx##.rsidebar-spots-holder
@@ -42673,6 +42671,7 @@ embed.viaplay.com#%#//scriptlet('prevent-fetch', 'v.fwmrm.net/ad/g/1')
 embed.watchasian.to#%#//scriptlet("prevent-window-open")
 embed.wcostream.com#$##announcement { display: block !important; }
 embed.wcostream.com#$#.announcement-backdrop { display: block !important; }
+embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
 embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file=")||navigator.userAgent.toLowerCase().includes("firefox"))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
 embed.wcostream.com#%#//scriptlet('prevent-fetch', 'pubadx-ad.js')
 embed.wcostream.com#@#.ad-unit
@@ -49349,6 +49348,7 @@ japantimes.co.jp##.supplements-binder
 japantoday.com##.s10r
 japantoday.com##.widget--animated
 japantoday.com##.widget--jobs
+jardinsdubreil.fr#@##adhesion
 jarock.pl##.old-news > .grid > .news-item.grid-item.a-d
 jarock.pl##.old-news > .grid > .news-item.grid-item.aserver_slot
 jasmr.net#%#//scriptlet('trusted-set-cookie', 'interstitial', 'yes')
@@ -51561,6 +51561,7 @@ livingmediainternational.com##.pjy
 livingmediainternational.com##.widget_pjy
 livingstonparishnews.com##.ad-block-meterless
 livku.com##.ad960,.adjx
+li|google.lk|google.lt|google.lu|google.lv|google.md|google.me|google.mg|google.mk|google.ml|google.mn|google.ms|google.mu|google.mv|google.mw|google.ne|google.nl|google.no|google.nr|google.nu|google.pl|google.pn|google.ps|google.pt|google.ro|google.rs|google.ru|google.rw|google.sc|google.se|google.sh|google.si|google.sk|google.sm|google.sn|google.so|google.sr|google.st|google.td|google.tg|google.tk|google.tl|google.tm|google.tn|google.to|google.tt|google.vg|google.vu|google.ws
 lk21official.*###admad
 lk21official.*###player-lux
 lk21official.life,playeriframe.*###admad
@@ -54243,6 +54244,7 @@ mystorbox.de,mydrive.ch###sidebar > div.softronics
 myswitzerland.com###victorinoxunten
 myt1.cc##div.wp.a_t,div.a_cn,div.a_pt
 myteenwebcam.com###chatwindow
+mytelly.co.uk##.custom-min-height-242
 mytempsms.com##.layui-col-md12
 mytempsms.com#@##container-ad
 mytheme.cn##.ad01
@@ -63652,7 +63654,6 @@ tmall.com##.sn-mobile
 tmearn.com#%#//scriptlet("prevent-window-open")
 tmearn.net##.box-main > .row + .banner-captcha
 tmioe.com##.dsawss
-tmioe.com##.gorand
 tmioe.com##.widget_image_img
 tmo.report###directad
 tmonews.com##.featured-google
@@ -70115,6 +70116,7 @@ zzzyk.com###Tinfo
 ||akamaized.net/mr/popunder.js
 ||akhbarak.net/widget_v.php
 ||akiba-online.com/data/siropu/
+||akirabox.com/js/akira-ads2.js
 ||akm-img-a-in.tosshub.com/sites/test/budget_2023/$domain=indiatoday.in
 ||akm-img-a-in.tosshub.com/sites/test/ipl/2022/index.html$domain=indiatoday.in
 ||akqipai.com/m/Tpl/v3/js/indexbottom.js
@@ -74314,8 +74316,6 @@ zzzyk.com###Tinfo
 ||data.hicloud.com:8089^$app=com.huawei.hwvplayer.youku
 ||data.idnes.cz/nocache/DPP/dacan/
 ||data.indianexpress.com/iframes/cfo-awards/cfoawards.html
-||data.tm-awx.com/smile-web-v2/
-||data.tm-awx.com/smile-web.min.js
 ||data.video.iqiyi.com/videos/other/*.mp4?*random=ad$redirect=noopmp4-1s
 ||data.video.ptqy.gitv.tv/videos/other/$redirect=noopmp4-1s
 ||data.video.qiyi.com/videos/other
@@ -75229,6 +75229,7 @@ zzzyk.com###Tinfo
 ||embed.sendtonews.com^$third-party,domain=~shmoop.com
 ||embed.streamdor.co/_a_d_s_/
 ||embed.twitch.tv^$domain=aeternum-map.gg
+||embed.wcostream.com/inc/embed/*.php$cookie=PHPSESSID
 ||embedme.top/embed/extra
 ||emetriq.de^$domain=spiegel.de
 ||emlak.az/images/banners/
@@ -78985,7 +78986,7 @@ zzzyk.com###Tinfo
 ||js.jialingmm.net/dm/history.js
 ||js.jialingmm.net/dm/tj.js
 ||js.letvcdn.com/js/*/stats/
-||js.monitor.azure.com/scripts/c/ms.shared.analytics.mectrl-3.gbl.min.js$domain=microsoft.com
+||js.monitor.azure.com/scripts/c/ms.shared.analytics.$domain=microsoft.com
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
 ||js.nahnoji.cz/miner_proxy
@@ -86146,6 +86147,7 @@ zzzyk.com###Tinfo
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||tii.la/js/fps.js
 ||tiimg.com^$domain=678cn.com
 ||tiimg.com^*.gif
 ||tijd.be/fb/?
@@ -86185,6 +86187,8 @@ zzzyk.com###Tinfo
 ||timeanddate.com/common/prebidtad.
 ||timecn.cn/image/alipay.jpg
 ||timedirect.ru
+||timejs.game.easebar.com/bad_report?
+||timejs.game.easebar.com/report?
 ||timeout.*/static/js/ads-
 ||timesnownews.com/dfpamzn.js
 ||timesofindia.com/toimga/
@@ -88776,7 +88780,6 @@ zzzyk.com###Tinfo
 ||youtnbe.xyz/asset/*.min.js?*=*&
 ||youtnbe.xyz/asset/bull.js
 ||youtube-nocookie.com/api/stats/atr?ns=
-||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
@@ -88785,8 +88788,7 @@ zzzyk.com###Tinfo
 ||youtube.com/annotations_invideo?$xmlhttprequest
 ||youtube.com/api/stats/ads?
 ||youtube.com/api/stats/atr?ns=
-||youtube.com/api/stats/delayplay?
-||youtube.com/api/stats/qoe?
+||youtube.com/api/stats/qoe?fmt=
 ||youtube.com/api/stats^
 ||youtube.com/csi_204?
 ||youtube.com/embed/$domain=akhbarelyom.com
@@ -88803,7 +88805,7 @@ zzzyk.com###Tinfo
 ||youtube.com/iframe_api$domain=nownews.com
 ||youtube.com/pagead/
 ||youtube.com/pcs/activeview?
-||youtube.com/ptracking?
+||youtube.com/ptracking?html5=1&
 ||youtube.com/ptracking?pltype=adhost
 ||youtube.com/set_awesome?
 ||youtube.com/watch$replace=/adSlots/no_ads/,document
