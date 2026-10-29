@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-10-28 11:31:03（北京时间）
-! Total count: 228983
+! Version: 2026-10-29 11:53:15（北京时间）
+! Total count: 228986
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
 ###AC_ad
@@ -14279,6 +14279,7 @@ $doc,removeparam=dTribesID
 $doc,removeparam=dartycid
 $doc,removeparam=dclid
 $doc,removeparam=deliveryName,domain=abp.nl
+$doc,removeparam=did,domain=aws|aws.amazon.*|columbiasportswear.*|investopedia.com|people.inc
 $doc,removeparam=draftsforfriends
 $doc,removeparam=dtpid
 $doc,removeparam=ebisOther1
@@ -14321,6 +14322,7 @@ $doc,removeparam=hasha
 $doc,removeparam=hashb
 $doc,removeparam=hashc
 $doc,removeparam=helpref,domain=whatsapp.com|facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|instagram.com
+$doc,removeparam=hid,domain=investopedia.com|people.inc
 $doc,removeparam=iId,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $doc,removeparam=icmp,domain=fortnite.com|lego.com|ho-mobile.it
 $doc,removeparam=igshid
@@ -14339,12 +14341,13 @@ $doc,removeparam=km_partner
 $doc,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=lId,domain=apple.com|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|youtube.com|35.190.94.206|206.94.190.35.bc.googleusercontent.com
 $doc,removeparam=lcid,domain=~rekono.si
-$doc,removeparam=lctg,domain=bleacherreport.com|weather.com
+$doc,removeparam=lctg,domain=bleacherreport.com|investopedia.com|weather.com
 $doc,removeparam=lgw_code
 $doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com|mcdonalds.com
 $doc,removeparam=line_uid
 $doc,removeparam=lk,domain=marriott.com|www.ritzcarltonyachtcollection.com
 $doc,removeparam=loclid
+$doc,removeparam=lr_input,domain=investopedia.com|people.inc
 $doc,removeparam=lyceumGuid,domain=bedbathandbeyond.com
 $doc,removeparam=maid
 $doc,removeparam=maltcode,domain=gamestop.com|ubisoft.com|steampowered.com
@@ -15056,7 +15059,6 @@ $removeparam=detail_from
 $removeparam=device,domain=ebay.*|obs.no
 $removeparam=dfw_tracker
 $removeparam=dgcid
-$removeparam=did,domain=columbiasportswear.*|aws|aws.amazon.*
 $removeparam=dlsi
 $removeparam=dm_i
 $removeparam=dmm_ogerpm
@@ -37366,7 +37368,6 @@ active.com###med_rec_bottom
 active.com###med_rec_top
 activistpost.com##.post-ad
 activistpost.com##.post-ads
-actonservice.com^
 actoys.net##.p_new_ad
 actoys.net##.p_top_ad
 actu17.fr#@#.td-ad-background-link
@@ -106725,6 +106726,7 @@ zzzyk.com###Tinfo
 ||ck.zzipps.com^
 ||ck12.org^$doc,removeparam=_eid
 ||ck12.org^$doc,removeparam=_mid
+||ck12.org^$doc,removeparam=refcode
 ||ck123.io^
 ||ck180.net/mitao
 ||ck28b4tzqbbgw1.cfd^
@@ -142641,6 +142643,7 @@ zzzyk.com###Tinfo
 ||investment.lianest.co.jp^
 ||investments.aberdeenstandard.com^
 ||investments.virtus.com^
+||investopedia.com^$doc,removeparam=inv_to_sim
 ||investors.firmenich.com^
 ||invileanswers.shop^
 ||invileschnitz.qpon^
