@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-10-29 11:53:15（北京时间）
-! Total count: 228986
+! Version: 2026-10-30 11:54:53（北京时间）
+! Total count: 228987
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
 ###AC_ad
@@ -14162,6 +14162,7 @@ $doc,removeparam=/^icid_.*$/
 $doc,removeparam=/^intgrtn_.*$/
 $doc,removeparam=/^itm_.*$/,domain=~redir.tradedoubler.com
 $doc,removeparam=/^kk=\w{6,}-\w{10,}-\w{5,}$/
+$doc,removeparam=/^linkshareid=.*$/i,domain=bloomingdales.com|macys.com
 $doc,removeparam=/^m_.*$/,domain=macys.com|macysinc.com
 $doc,removeparam=/^matomo_.*$/
 $doc,removeparam=/^mpid=.*$/i,domain=~miguvideo.*
@@ -14357,6 +14358,7 @@ $doc,removeparam=mcid,domain=~miguvideo.*
 $doc,removeparam=method,domain=peacocktv.com
 $doc,removeparam=mi_ecmp,domain=chewy.com|harborfreight.com
 $doc,removeparam=mi_u,domain=chewy.com|harborfreight.com|samsclub.com|walmart.com
+$doc,removeparam=mid,domain=agentprovocateur.com|change.org|columbia.com|dxl.com|hanes.com|instagram.com|josbank.com|links.e.malwarebytes.com|onehanesplace.com|productshopper.*|columbiasportswear.*|saksfifthavenue.com|saksoff5th.com|staples.com|sorel.com|lookmovie211.xyz|tiktok.com|verabradley.com|x.com
 $doc,removeparam=mkt_rec,domain=temu.com
 $doc,removeparam=mpch,domain=shutterfly.com|shutterflyinc.com
 $doc,removeparam=msid,domain=~rsc.org|~editorialmanager.com
@@ -14514,7 +14516,6 @@ $removeparam=/^has-promotion=$/
 $removeparam=/^hc_.*$/,domain=facebook.*|facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion|messenger.com
 $removeparam=/^hmb_(campaign|medium|source)=/
 $removeparam=/^itm_(campaign|medium|source)=/
-$removeparam=/^linkshareid=.*$/i,domain=bloomingdales.com|macys.com
 $removeparam=/^mc_(eid|cid|tc)=/
 $removeparam=/^mweb_user_id.*$/,domain=reddit.app.link
 $removeparam=/^partnerid=.*$/i,domain=1800contacts.com|al.to|allenedmonds.com|bloomingdales.com|combat.pl|famousfootwear.com|johnstonprams.com|macys.com|naturalizer.com|shoes.com|sportler.com|x-kom.pl
@@ -15343,7 +15344,6 @@ $removeparam=mediapartner,domain=evesleep.co.uk
 $removeparam=medium,domain=1sol.io|bybit.com|coinpanel.com|cybernews.com|deepdiscount.com|discord.*|docs.google.com|docsend.com|eonline.com|eventbrite.*|forms.gle|gleam.io|goodcrypto.app|instagram.com|kasta.io|ngx.me|outnorth.fi|runnode.com|t.me|twitter.com|xd.wayin.com|x.com|youtube.com|35.190.94.206|206.94.190.35.bc.googleusercontent.com
 $removeparam=messagesUtk
 $removeparam=mibextid
-$removeparam=mid,domain=agentprovocateur.com|change.org|columbia.com|dxl.com|facebook.com|hanes.com|instagram.com|josbank.com|links.e.malwarebytes.com|onehanesplace.com|productshopper.*|columbiasportswear.*|saksfifthavenue.com|saksoff5th.com|staples.com|sorel.com|lookmovie211.xyz|tiktok.com|verabradley.com|x.com
 $removeparam=mindbox-click-id
 $removeparam=mindbox-message-key
 $removeparam=mkref
@@ -60432,6 +60432,7 @@ pep.ph##.c-ad__item
 pepper.com,pepper.pl##.listLayout-box:has(> .ad:only-child)
 pepper.pl###sidebarContentPortal .listLayout-box:has(> .slot)
 pepper.pl##.box--content > .flex:has(> .slot--bg:only-child)
+per
 percentagecalculator.net##.pc-incontent
 perchance.org###adCtn
 perchance.org#%#//scriptlet('prevent-setTimeout', 'adIframesExist')
