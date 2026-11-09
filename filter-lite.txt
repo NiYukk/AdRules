@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-08 11:50:26（北京时间）
-! Total count: 229070
+! Version: 2026-11-09 12:02:49（北京时间）
+! Total count: 229072
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
 ###AC_ad
@@ -63619,6 +63619,7 @@ ryuugames.com,gizchina.com###block-32
 s-nr.dk,wowmail.app,inipulsa.my.id,anon.tools#%#//scriptlet('prevent-setTimeout', 'Ad Blocker Detected')
 s.to,serienstream.sx#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 s.yimg.com##.cta-wrapper
+s/smart-mag-child/js/vmg-ads.js
 s0ft4pc.com##.popup02778wrap
 s0ft4pc.com,portable4pc.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 s10.watchfreejavonline.co##.mg-footer-widget-area
@@ -90675,6 +90676,7 @@ zzzyk.com###Tinfo
 ||amazon.com/cs/uedata
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
+||amazon.com^$doc,removeparam=btn_ref
 ||amazon.dev/getAds
 ||amazon.dev/getVideoAds
 ||amazon.wii-info.fr^
