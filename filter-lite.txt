@@ -5,10 +5,10 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-09 12:02:49（北京时间）
-! Total count: 229072
+! Version: 2026-11-10 13:35:36（北京时间）
+! Total count: 229073
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
- $doc,removeparam=enc_em,domain=bleacherreport.com|weather.com
+ $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ###AC_ad
 ###AD_160
 ###AD_300
@@ -14343,7 +14343,7 @@ $doc,removeparam=km_partner
 $doc,removeparam=l,domain=ask.com|askmoney.com|bloglines.com|consumersearch.com|directhit.com|faqtoids.com|findthedish.com|informationvine.com|internetcorkboard.com|life123.com|ohdeal.com|questionsanswered.net|reference.com|shop411.com|shopping.net|simpli.com|smarter.com|symptomfind.com
 $doc,removeparam=lId,domain=apple.com|reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion|youtube.com|35.190.94.206|206.94.190.35.bc.googleusercontent.com
 $doc,removeparam=lcid,domain=~rekono.si
-$doc,removeparam=lctg,domain=bleacherreport.com|investopedia.com|weather.com
+$doc,removeparam=lctg
 $doc,removeparam=lgw_code
 $doc,removeparam=lid,domain=baidu.com|chewy.com|clickserve.dartsearch.net|flipkart.com|instagram.com|weather.com|harborfreight.com|sonypictures.com|mcdonalds.com
 $doc,removeparam=line_uid
@@ -59637,6 +59637,7 @@ olympics.com#$?##header-adv-banner { remove: true; }
 olympustaff.com#%#//scriptlet('prevent-setTimeout', 'testAd')
 olympustaff.com#@#.ad-slot
 olyrix.com#$#.skin-takeover-container { top: 0 !important; }
+om^
 omatomeloanhikaku.com###search-2
 omediach.info##.adse-box
 omegatv.com.cy#%#//scriptlet('set-constant', 'Brid.A9.prototype.runBackfillBidding', 'noopPromiseResolve')
@@ -63619,7 +63620,6 @@ ryuugames.com,gizchina.com###block-32
 s-nr.dk,wowmail.app,inipulsa.my.id,anon.tools#%#//scriptlet('prevent-setTimeout', 'Ad Blocker Detected')
 s.to,serienstream.sx#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 s.yimg.com##.cta-wrapper
-s/smart-mag-child/js/vmg-ads.js
 s0ft4pc.com##.popup02778wrap
 s0ft4pc.com,portable4pc.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 s10.watchfreejavonline.co##.mg-footer-widget-area
@@ -115748,6 +115748,7 @@ zzzyk.com###Tinfo
 ||delta-cdn.online^
 ||delta-static.shop^
 ||delta.com/datacollect
+||delta.com^$doc,removeparam=mkcpgn
 ||deltabravo.net/admax/
 ||deltaction.com^
 ||deltarockme.com^
