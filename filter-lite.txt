@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-11 12:07:23（北京时间）
-! Total count: 229073
+! Version: 2026-11-12 13:19:06（北京时间）
+! Total count: 229076
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ###AC_ad
@@ -14066,6 +14066,7 @@
 ##div.m0auto div.s_h,div.m0auto div.s_h + *
 ##div.maomi-content > SECTION.section.section-banner
 ##div.module-list-right-title-wrap > div.normal-title-wrap > div > a
+##div.module-player-side > .is_mb
 ##div.my-ad > a
 ##div.page.list div.small-icon-container
 ##div.page.player > div.main > div.content > div.module.module-player > div.module-main > div.player-box > div.player-rm.rm-list > a > img
@@ -14097,6 +14098,7 @@
 ##vg-pause-f
 ##zeus-ad
 #189
+#googleAdBox
 $$script:contains(/^(?=.{2000,25000}$)(?=.*adcashMacros.*zoneSett.*$).*/s)
 $cookie=/^adb\$|adb\.key/,domain=iprima.cz
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
@@ -60064,7 +60066,6 @@ oxu.az##.right-bnr
 oxy.cloud,oxy.st#%#//scriptlet("abort-current-inline-script", "$", "divdownload")
 oxy.st##.button-list__container > div.text-left + p
 oxygen.com,syfy.com##.blog-post-section__zergnet
-oylynifuain.space^
 ozarksfirst.com###nxcms_dotbiz
 ozbargain.com.au###sticky
 ozspeedtest.com###deals-box
@@ -125122,6 +125123,7 @@ zzzyk.com###Tinfo
 ||f792df8437.com^
 ||f7f5a59e50.eff8a530f3.com^
 ||f7hyg4q.org^
+||f7qh.top^
 ||f7qhnenfbo.com^
 ||f83bac9c05.c18f3ffc23.com^
 ||f83cu.tzj1kcm1z8vg3bn.cyou^
@@ -223933,6 +223935,7 @@ zzzyk.com###Tinfo
 ||xn--czru2dx3eszw3lat53b.com^
 ||xn--e1aaipcdgnfsn.su^*/counter.php
 ||xn--gov-x68dy61b.shop^
+||xn--jc2a749bpa.com^
 ||xn--jor0b302fdhgwnccw8g.com^
 ||xn--jvrp4x1zyfta.net^
 ||xn--m7r781dz66a.cn^
