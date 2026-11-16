@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-15 12:17:27（北京时间）
-! Total count: 229087
+! Version: 2026-11-16 12:16:41（北京时间）
+! Total count: 229077
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ###AC_ad
@@ -14282,7 +14282,9 @@ $doc,removeparam=dTribesID
 $doc,removeparam=dartycid
 $doc,removeparam=dclid
 $doc,removeparam=deliveryName,domain=abp.nl
+$doc,removeparam=device,domain=docs.channel.io|ebay.*|obs.no
 $doc,removeparam=did,domain=aws|aws.amazon.*|columbiasportswear.*|investopedia.com|people.inc
+$doc,removeparam=domain,domain=docs.channel.io|reddit.app.link
 $doc,removeparam=draftsforfriends
 $doc,removeparam=dtpid
 $doc,removeparam=ebisOther1
@@ -14381,7 +14383,7 @@ $doc,removeparam=premiumVisit,domain=fic.fan|fanfictionero.com|ficmania.com|ficb
 $doc,removeparam=priceTId,domain=tmall.com|taobao.com
 $doc,removeparam=psf_variant
 $doc,removeparam=pub,domain=indeed.com
-$doc,removeparam=queryID,domain=bstn.com|suomalainen.com
+$doc,removeparam=queryID,domain=bstn.com
 $doc,removeparam=ranEAID
 $doc,removeparam=ranLinkID
 $doc,removeparam=ranLinkTypeID
@@ -15059,7 +15061,6 @@ $removeparam=deep_and_deferred
 $removeparam=deep_link_sub1
 $removeparam=depth_1-utm_source
 $removeparam=detail_from
-$removeparam=device,domain=ebay.*|obs.no
 $removeparam=dfw_tracker
 $removeparam=dgcid
 $removeparam=dlsi
@@ -15067,7 +15068,6 @@ $removeparam=dm_i
 $removeparam=dmm_ogerpm
 $removeparam=dnt,domain=reddit.app.link
 $removeparam=dnt_enf
-$removeparam=domain,domain=reddit.app.link
 $removeparam=driver,domain=pcgamesn.com|pockettactics.com|thedigitalfix.com|theloadout.com|wargamer.com
 $removeparam=ds_a_agid,domain=clickserve.dartsearch.net
 $removeparam=ds_a_caid,domain=clickserve.dartsearch.net
@@ -64893,7 +64893,6 @@ skyve.io##.ads_space
 slacker.com###leaderboard
 slacker.com#$#body > header { margin-top: 0!important; }
 slang.net##.adRightSky
-slang.net##.adRightains(Advertisement)
 slang.net##.adTopLB
 slant.co##.SummaryPage-LustreEmbed
 slant.co##._SummaryPageSponsoredOptionView
@@ -70229,7 +70228,6 @@ vidmoly.biz,vidmoly.me,vidmoly.net,vidmoly.to###x-adb-root
 vidmoly.biz,vidmoly.me,vidmoly.net,vidmoly.to#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', '/_0x|adsBlocked|custom-overlay/')
 vidmoly.biz,vidmoly.me,vidmoly.net,vidmoly.to#%#//scriptlet('prevent-fetch', '/pagead2\.googlesyndication\.com|doubleclick\.net/')
 vidmoly.biz,vidmoly.me,vidmoly.net,vidmoly.to#%#//scriptlet('set-constant', 'adsbygoogle', 'emptyObj')
-vidmorget="_blank"]
 vidneo.cc#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'onClick')
 vidneo.cc#%#//scriptlet('json-prune', 'playerHeadScriptSnippets adsMonetizationEnabled')
 vidnest.fun,vidnest.live,vidnest.io#%#//scriptlet('prevent-setTimeout', 'window.location.replace', '100')
@@ -70476,7 +70474,6 @@ volcore.xyz##.avd2
 voltupload.com##.downloadLink
 volvo-club.cz#$##obalovydiv { display: block!important; }
 volvo-club.cz#%#//scriptlet("abort-on-property-read", "gaFailedToLoad")
-volvo-club.cz#%#//scriptlet("abort-on-property-read", "gaFailedToLoad")ob:"]
 voodc.com#%#//scriptlet('remove-node-text', 'script', 'adserverDomain')
 voonze.com##.tdi_97
 voonze.com#?#.td-is-sticky > .wpb_wrapper:not(:has(.td-cpt-post))
@@ -70623,7 +70620,6 @@ wago.io###stream-player
 wago.io##.ad-in-search
 wago.io##.embed-player
 wago.io##body .wago-ad-container
-waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian7.com,waipian8.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.-close-btn-ad"]:upward(1)
 walbrzyszek.com##.kontener-reklam
 walftech.com#%#//scriptlet('prevent-element-src-loading', 'script', '/pagead2.googlesyndication\.com|al5sm\.com/')
 walftech.com#%#//scriptlet('prevent-setTimeout', 'window.getComputedStyle')
@@ -70796,7 +70792,6 @@ wataugademocrat.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_a
 watch-jav-english.live#%#//scriptlet("prevent-window-open")
 watch-series.cc,33sk.tv#%#//scriptlet("abort-current-inline-script", "decodeURIComponent", "zfgloaded")
 watch.evod.co.za#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
-watch.mbrsp
 watch.plex.tv###pb-slot-anchor-container
 watch.plex.tv##.shaka-ad-markers
 watch.plex.tv#%#//scriptlet('google-ima3')
@@ -70873,7 +70868,6 @@ watoday.com.au,theage.com.au,brisbanetimes.com.au,smh.com.au##header > div:has(>
 watoday.com.au,theage.com.au,brisbanetimes.com.au,smh.com.au#$##app nav + header.noPrint { top: 0 !important; }
 watoday.com.au,theage.com.au,brisbanetimes.com.au,smh.com.au#$#._2gSkZ { height: 150px !important; }
 watson.ch##.watson-ad
-watzats.row.table-hover:has(> .col-md-8 > .adsbygoogle)
 watzatsong.com##.right-column-why-ads
 waw4free.pl##.zlokonieczne
 waw4free.pl#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display: block !important; }
@@ -71406,7 +71400,6 @@ wineverygame.com##.weg-ac--amazon
 wingeno.org,winshell.org#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 wings.io###mpu-top
 wings.io#?#.form-group center:contains(Advertisement)
-wings.io#?#.form-group center:contl.ee##.b-text-ads
 wings.io#?#.form-group center:has-text(Advertisement)
 winhelponline.com,thewindowsclub.com##.ezoic-adpicker-ad
 winkawaks.org##.google-adsese
@@ -73122,7 +73115,6 @@ zeroupload.com#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoog
 zeroupload.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 zertalious.xyz,digworm.io#%#//scriptlet('prevent-fetch', '/\/(ad(ex|gpt)|weborama)\.js/')
 zeste.ca#?#.text-center > div#modal-root:has(>div > div#modal div:contains(utilisez un bloqueur))
-zestolu.cz,osong.com##.right-column-why-ads
 zetmoon.live#%#//scriptlet('set-local-storage-item', 'fajgklad', '1')
 zetporn.com#%#//scriptlet('prevent-window-open')
 zglww.net##.tool
@@ -73420,8 +73412,6 @@ zzzyk.com###Tinfo
 |javascript:*setTimeout$popup
 |javascript:*window.location$popup
 |lgtvsdp.com^
-|link.email.almosafer.com^
-|m
 |samsungcloudsolution.com^
 |samsungcloudsolution.net^
 |samsungqbe.com^
@@ -112430,7 +112420,6 @@ zzzyk.com###Tinfo
 ||d15gt9gwxw5wu0.cloudfront.net^
 ||d15jg7068qz6nm.cloudfront.net^
 ||d15kdpgjg3unno.cloudfront.net^
-||d15kdpgjg3unno.cloudfrontpurina.com^
 ||d15kuuu3jqrln7.cloudfront.net^
 ||d15mt77nzagpnx.cloudfront.net^
 ||d15skjf5hy9xr6.cloudfront.net^
@@ -170833,7 +170822,6 @@ zzzyk.com###Tinfo
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=mr9soft.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=myfilmyzilla.com,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=navbharattimes.indiatimes.com,important
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=pvpoke-re.co.net^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=pvpoke-re.com
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=simpmusic.org,important
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,domain=techably.com
@@ -199650,6 +199638,7 @@ zzzyk.com###Tinfo
 ||sunuabuahgfsd.space^
 ||sunwaysseminaogles.cfd^
 ||suolbcutqqzpj.space^
+||suomalainen.com^$doc,removeparam=queryId
 ||sup-idea.com/jquerys.js
 ||sup.srvtax.com^
 ||supabase.co/*/track-visitor
@@ -217499,6 +217488,7 @@ zzzyk.com###Tinfo
 ||wealthfront.com/track_next?p=
 ||wealthfront.com/userevents/
 ||wealthn.com^
+||wealthsimple.com^$doc,removeparam=ajs_aid
 ||weanersprionus.qpon^
 ||weanerssouls.com^
 ||weaningrouellethirl.cfd^
