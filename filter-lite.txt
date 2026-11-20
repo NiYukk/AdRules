@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-19 13:28:49（北京时间）
-! Total count: 229082
+! Version: 2026-11-20 13:16:14（北京时间）
+! Total count: 229083
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ###AC_ad
@@ -24590,6 +24590,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 ://get.microsoft.com/installer/download^$removeparam=ocid
 ://get.microsoft.com/installer/download^$removeparam=referrer
 ://get.microsoft.com/installer/download^$removeparam=source
+://gg.*/*.js$third-party
 ://globalcdn.nuget.org/packages/*.nupkg?packageVersion=$removeparam=packageVersion
 ://gom.ge/cookie.js
 ://gtm.*.js?st=
