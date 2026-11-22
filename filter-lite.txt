@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-21 13:08:37（北京时间）
-! Total count: 229083
+! Version: 2026-11-22 12:34:19（北京时间）
+! Total count: 229086
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ###AC_ad
@@ -14497,6 +14497,7 @@ $popup,third-party,domain=mixdrop.*|mixdrop.ag|mixdrop.nu,badfilter
 $popup,third-party,domain=myflixer.to,badfilter
 $popup,third-party,domain=sbplay2.com,badfilter
 $popup,third-party,domain=sbplay2.xyz,badfilter
+$redirect=noopjs,domain=waaw.to|waaw1.tv|waaw.tv|hqq.tv
 $removeparam=%243p,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=%24deep_link,domain=reddit.com|reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion
 $removeparam=%2AVersion%2A,domain=amazon.*
@@ -17130,6 +17131,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 .com:*/sc/*?n=$third-party
 .com:10446/*/get*.html
 .com:12289/$script,third-party
+.com:30009/*t*$third-party
 .com:7891/stats$third-party
 .com:8*/mj*$third-party
 .com:8001/*/*?*=$third-party
@@ -20284,6 +20286,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 /js-cdn/scstats.js
 /js-responsive/minimal-analytics-$script
 /js-sdk-event.min.js
+/js/0x1a2b3c4d.js
 /js/AD_tv.js
 /js/_analytics.js
 /js/aa.htm$script
@@ -63056,6 +63059,7 @@ ref=itsfoss.com$doc,removeparam=ref
 ref=kelkoo^$doc,removeparam=ref
 ref=kunall.is$doc,removeparam=ref
 ref=labs.watchtowr.com$doc,removeparam=ref
+ref=liberalcurrents.com$doc,removeparam=ref
 ref=libreselfhosted.com$doc,removeparam=ref
 ref=macapp.supply$doc,removeparam=ref
 ref=news.itsfoss.com$doc,removeparam=ref
@@ -73433,7 +73437,6 @@ zzzyk.com###Tinfo
 ||*two-gun-volley.pages.dev^
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
-||/js/0x1a2b3c4d.js
 ||0-02.net^
 ||0.0.0.1^
 ||0.myikas.com^
