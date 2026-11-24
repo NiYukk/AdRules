@@ -5,8 +5,8 @@
 ! Expires: 24 Hours
 ! Description: 该规则适用于移动端浏览器，如via, Vivaldi, X Browser
 ! Description: 该规则合并自EasyList Lite, Easylist China, CJX's Annoyance List, 乘风视频过滤规则, Adblock Warning Removal List, 酷安大萌主的规则, 去APP下载广告规则, 百度超级净化和一些额外规则
-! Version: 2026-11-23 13:10:15（北京时间）
-! Total count: 229086
+! Version: 2026-11-24 15:54:55（北京时间）
+! Total count: 229085
  $doc,removeparam=CLRTags,domain=microsoft.com|windows.com
  $doc,removeparam=enc_em,domain=bleacherreport.com|fave.co|weather.com
 ###AC_ad
@@ -25163,6 +25163,7 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 @@/live/*/*jpeg|$xmlhttprequest,stealth=referrer,domain=weakspell.org|weakspell.to
 @@/log/report/*$script,domain=bilibili.com
 @@/login-redirect/*$removeparam
+@@/login/*$removeparam=referrer
 @@/login?$removeparam=referrer
 @@/m3u8-proxy.m3u8?data=$xmlhttprequest,stealth=referrer,domain=zlive.st
 @@/mangakakalot/*$stealth=referrer,image,domain=mangakakalot.com
@@ -63605,7 +63606,6 @@ ruten.com.tw#@#.adslot
 ruwix.com##.freestarwrap
 ruyo.net##.textwidget a > img
 rvguide.com##.wp-image-3611
-rvice.com^
 rvtrader.com##.home-ad-featured-dealer
 rvtrader.com##.publift-ad-footer
 rvtrader.com##.vdp-top-banner
@@ -95601,7 +95601,6 @@ zzzyk.com###Tinfo
 ||asurascans.com/wp-content/uploads/*/immortaltaoist.gif
 ||asurascans.com/wp-content/uploads/2021/03/panda_gif_large.gif
 ||asuswebstorage.com^$removeparam=pv
-||asuswebstorage.com^$removeparam=tlt
 ||asuswebstorage.com^$removeparam=ve
 ||asuswebstorage.com^$removeparam=x-asc-device-name
 ||asuswebstorage.com^$removeparam=x-asc-os-version
